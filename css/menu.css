@@ -1,0 +1,109 @@
+/*----------------menu-------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+/*{
+    outline: 1px solid  blue;
+}*/
+body {
+  font-family: 'Titillium Web';
+}
+.logo{
+    width:100%;
+}
+.navbar-inverse{
+    background:#c5241a;
+    border:none;
+    border-radius:0px;
+    margin:0px;
+}
+.container-fluid{
+    padding: 0px;
+}
+.mega-dropdown {
+  position: static !important;
+}
+.nav .dropdown{
+    border-left:1px solid #fff;
+    padding:18px 10px;
+}
+.estilos{
+    border-right: 1px solid #fff;
+}
+.nav .dropdown:hover{
+    background:black;
+}
+.nav .dropdown .dropdown-toggle{
+    color:white;
+}
+.dropdown-menu .col-sm-3{
+    border-left:1px dashed #ccc;
+}
+.mega-dropdown-menu {
+    padding: 20px 0px;
+    width: 100%;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    border-radius:0px;
+}
+.mega-dropdown-menu{
+    border:none;
+}
+.mega-dropdown-menu > li > ul {
+  padding: 0;
+  margin: 0;
+}
+.mega-dropdown-menu > li > ul > li {
+  list-style: none;
+}
+.mega-dropdown-menu > li > ul > li > a {
+  display: block;
+  color: #505050;
+  font-weight:100px;
+  font-size:13px;
+  line-height:25px;
+}
+.mega-dropdown-menu > li ul > li:hover,
+.mega-dropdown-menu > li ul > li:focus {
+  text-decoration: none; 
+}
+.mega-dropdown-menu .dropdown-header {
+  font-size: 15px;
+  color: #c5241a;
+  padding: 5px 60px 5px 5px;
+  line-height: 30px;
+  font-weight:bold;
+}
+.navbar-inverse .navbar-nav > .open > a:focus{
+    background: #c5241a;
+}
+/*--------------------------REDES----------------------*/
+.lista {
+    padding: 20px 20px 10px;
+}
+.lista .redes {
+    background-color: #fff;
+    padding: 7px;
+    border-radius: 200px;
+    margin-left: 20px;
+}
+.lista .facebook{
+    padding: 7px 12px;
+}
+.lista .redes i{
+    color:rgb(197, 36, 26);
+    font-size:19px;
+    margin-top: 2px;
+}
+.contacto {
+    color: #fff;
+    font-size: 15px;
+    margin: 2px;
+}
+/*-----------footer----------*/
+.footer{background: rgb(197,36,26); padding: 15px 0; color: #fff; font-size: 13px;}
+.footer a{color: #fff;}
+.footer ul i{width: 18px;}
+.footer .clientes1 i{font-size: 14px; width: 10px;}
+.footer h4{margin-bottom: 10px; font-size: 16px;}
+.footer2{background: rgb(0,0,0); color: #fff; font-family: 'Titillium Web', sans-serif; font-size: 12px;}
+.footer2 span{color: rgb(197,36,26);}
+.footer2 ul a{color: rgb(197,36,26);}

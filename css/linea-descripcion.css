@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+body{font-family: 'Titillium Web', sans-serif;}
+/**{outline: 1px solid red;}*/
+
+.section-info{padding: 20px 0 40px;}
+.section-info .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{
+  background-color: rgb(197,36,26); font-weight: 100; border: 1px solid rgb(197,36,26);}
+.section-info .nav-tabs>li>a{color: #000; font-weight: 400; border: 1px solid #a09d9b; margin-right: 0px;}
+.section-info .nav-tabs > li.active > a{color: #fff;}
+.section-info .nav-tabs > li a:hover{background-color: #000; color: #fff; border: 1px solid #ccc}
+.section-info .nav-tabs>li{float: none; margin: 2px 0; display: inline-block; padding-right: 0px; padding-left: 0px;}
+.lineas .tab-content .title{margin: 30px 0;}
+.lineas .tab-content .title h2{color: rgb(197,36,26);}
+.lineas .tab-content .title h4{color: #505050; font-size: 17px;}
+.lineas .nav-tabs {display: inline-block; border-bottom: none; padding-top: 15px; font-weight: bold;}
+.lineas .navbar-nav {padding-left: 40px;}
+.lineas .tab-content .btn{background-color: rgb(197,36,26); border-radius: 0px;}
+
+.descripcion-linea .snip1446 {position: relative; float: left; overflow: hidden; margin: 10px 0px; width: 100%; color: #ffffff;
+  text-align: center; font-size: 16px; border: 1px solid #a09d9b; padding: 10px 0;}
+.descripcion-linea .snip1446 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.descripcion-linea  .snip1446 img {opacity: 1; width: 100%;}
+.descripcion-linea .snip1446:after,
+.descripcion-linea .snip1446:before,
+.descripcion-linea .snip1446 figcaption:after,
+.descripcion-linea .snip1446 figcaption:before {
+  background: #0a0a0a;
+  width: 25%;
+  position: absolute;
+  content: '';
+  opacity: 0;
+  -webkit-transition: all 0.3s steps(4);
+  transition: all 0.3s steps(4);
+  z-index: 1;
+  top: 100%;
+  bottom: 0;
+}
+.descripcion-linea .snip1446:before {
+  left: 0;
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
+}
+.descripcion-linea .snip1446:after {
+  left: 25%;
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+.descripcion-linea .snip1446 figcaption:before {
+  left: 50%;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+  z-index: -1;
+}
+.descripcion-linea .snip1446 figcaption:after {
+  left: 75%;
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+  z-index: -1;
+}
+.descripcion-linea .snip1446 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  padding: 30px;
+}
+.descripcion-linea .snip1446 h3,
+.descripcion-linea .snip1446 p,
+.descripcion-linea .snip1446 .icons {
+ /* margin: 0;*/
+  width: 100%;
+  opacity: 0;
+}
+.descripcion-linea .snip1446 h3 {
+  text-transform: uppercase;
+}
+.descripcion-linea .snip1446 p {
+  font-weight: 300;
+}
+.descripcion-linea .snip1446 .icons {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  width: 100%;
+}
+.descripcion-linea .snip1446 i {
+  padding: 0px 10px;
+  display: inline-block;
+  font-size: 24px;
+  color: #ffffff;
+  text-align: center;
+  opacity: 0.8;
+}
+.snip1446 i:hover {
+  opacity: 1;
+}
+.descripcion-linea .snip1446:hover:after,
+.descripcion-linea .snip1446.hover:after,
+.descripcion-linea .snip1446:hover:before,
+.descripcion-linea .snip1446.hover:before,
+.descripcion-linea .snip1446:hover figcaption:after,
+.descripcion-linea .snip1446.hover figcaption:after,
+.descripcion-linea .snip1446:hover figcaption:before,
+.descripcion-linea .snip1446.hover figcaption:before {
+  top: 0;
+  opacity: 0.3;  /*---0.8----*/
+}
+.descripcion-linea .snip1446:hover figcaption h3,
+.descripcion-linea .snip1446.hover figcaption h3,
+.descripcion-linea .snip1446:hover figcaption p,
+.descripcion-linea .snip1446.hover figcaption p,
+.descripcion-linea .snip1446:hover figcaption .icons,
+.descripcion-linea .snip1446.hover figcaption .icons {
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
+.descripcion-linea .snip1446:hover figcaption h3,
+.descripcion-linea .snip1446.hover figcaption h3,
+.descripcion-linea .snip1446:hover figcaption .icons,
+.descripcion-linea .snip1446.hover figcaption .icons {
+  opacity: 1;
+}
+.descripcion-linea .snip1446:hover figcaption p,
+.descripcion-linea .snip1446.hover figcaption p {
+  opacity: 0.7;
+}
+
+@media (max-width: 400px) {
+  .lineas .tab-content .col-xs-6{width: 100%;}
+}

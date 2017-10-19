@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+body{font-family: 'Titillium Web', sans-serif; background-image: url(../img/pared-bg2.jpg); background-size: 140px;}
+
+.section-product {background-color: #eee;}
+.section-product img{width: 100%;}
+
+
+.fondo-formulario{
+   background: #858d98;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#858d98', endColorstr='#4a525d',GradientType=1 );
+  background: -moz-radial-gradient(top, ellipse cover,  #858d98 1%, #4a525d 99%);
+  background: -webkit-gradient(radial, top top, 0px, top top, 100%, color-stop(1%,#858d98), color-stop(99%,#4a525d));
+  background: -webkit-radial-gradient(top, ellipse cover,  #858d98 1%,#4a525d 99%);
+  background: -o-radial-gradient(top, ellipse cover,  #858d98 1%,#4a525d 99%);
+  background: -ms-radial-gradient(top, ellipse cover,  #858d98 1%,#4a525d 99%);
+  background: radial-gradient(ellipse at top,  #858d98 1%,#4a525d 99%);
+}
+.formulario input, .formulario textarea, .formulario select{
+  width: 100%;
+  padding: 8px;
+  font-size:14px;
+  font-weight:300;
+  color:#000;
+  background-color: rgba(5,5,5,.3);
+  border: 1px solid transparent;
+  border-bottom: 1px solid #ccc;
+  margin-bottom:15px;
+}
+.formulario{
+  color: #fff;
+}
+.formulario h3{text-transform: uppercase;}
+.formulario textarea{
+  height: 100px;
+  border: 1px solid transparent;
+  border-bottom: 1px solid #ccc;
+}
+
+ input.submit-button {
+  font-size:12px;
+  font-weight:300;
+  text-transform:uppercase;
+  width: 100px;
+  margin: 5px 40%;
+  color: #fff;
+  background-color:transparent;
+  border-top: 1px solid #fff;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  border-right: 1px solid #fff;
+  -moz-transition:all 0.1s ease-in-out;
+  -webkit-transition:all 0.1s ease-in-out;
+  -o-transition:all 0.1s ease-in-out;
+  -ms-transition:all 0.1s ease-in-out;
+  transition:all 0.1s ease-in-out;
+}
+
+input.submit-button:hover {
+  color:#fff;
+  background-color:#333;
+}
+
+::-webkit-input-placeholder {color: #fff; font-size:14px;}
+:-moz-placeholder { color: #fff; font-size:14px;}
+::-moz-placeholder { color: #fff; font-size:14px;}
+:-ms-input-placeholder { color: #fff; font-size:14px;}
+ 
+.formulario textarea:focus, .formulario input:focus, .formulario textarea:focus {
+  background-color:#333;
+  border-top: 1px solid transparent;
+  border-left: 1px solid transparent;
+  border-bottom: 1px solid #fff;
+  border-right: 1px solid transparent;
+  color: #fff;
+}
+.formulario label{
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 500;
+  width: 30%;
+}
+.formulario select{
+  width: 69.4%;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: lighter;
+  color: #fff;
+}
+
+
+/*-------------------------------------------------------*/
+.img-principal{max-width: 425px;}
+ #gallery_01 img, #gallery_02 img{border:2px solid white; max-width: 20%; display: inline-block;}
+ 
+
+/*---------------------------------------------------------*/
+/**{outline: 1px solid red;}*/
+.modelo-prenda .fila{margin: 30px 0 40px;}
+.modelo-prenda .descripcion{padding-top: 12%;}
+.modelo-prenda .titulo-prenda{ font-weight: bold; margin-bottom: 0px; font-size: 30px; }
+.modelo-prenda h4{margin-top: 5px; margin-bottom: 5px; font-weight: bold;}
+.modelo-prenda span{color: rgb(234,25,25); font-weight: bold;}
+.modelo-prenda ul, .modelo-prenda .lista-tallas{ padding-left: 5px; margin-left: 0px; font-weight: bold;}
+.modelo-prenda .lista-tallas{ background: rgb(234,25,25); color: #fff; width: 40%;}
+.modelo-prenda hr{ margin: 10px auto; border-top: 1px dashed rgba(0,0,0,0.4);}
+.board-inner{margin: 30px 0;}
+.board-inner img{width: 100%;}
+section .divisor h4{font-weight: bold; text-transform: uppercase;}
+section .divisor hr{margin: 10px 0 ; border-top: 2px solid rgba(51,51,51,.9);}
+.board-inner .nav-tabs{padding-top: 0px; width: 100%;}
+.board-inner .nav-tabs>li{margin-bottom: 0px;}
+.modelo-prenda .border-colum{border-right: 1px dashed rgba(0,0,0,0.4); }
+.fondo-formulario{padding-bottom: 40px; padding-top: 20px;}
+
+.board-inner .col-md-3 .product .text span{color: rgb(197,36,26); }
+.board-inner .col-md-3 .product .text h5{font-weight: bold; text-transform: uppercase; color: #505050; }
+.board-inner .col-md-3 .product .text p{color: #505050; font-weight: 100;}
+.board-inner .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{background-color:#eee; border:1px solid rgba(0,0,0,0.4); }
+
+@media (max-width: 767px) {
+  .modelo-prenda .border-colum {border-right: 0px;}
+  .modelo-prenda .descripcion{padding-top: 5%;}
+  .board-inner .nav-tabs>li a{margin: 5px 0;}
+}
+@media (max-width: 475px) {
+  .tab-content .modelo-prenda img{width: 100%;}
+  .modelo-prenda .lista-tallas{ width: 70%;}
+  /*.tab-content .modelo-prenda .data-zoom-image{visibility: hidden;}*/
+}
+@media (max-width: 400px) {
+  .board-inner .col-xs-6{width: 100%;}
+}

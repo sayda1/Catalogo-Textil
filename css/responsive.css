@@ -1,0 +1,47 @@
+@media (max-width:764px) and (min-width:319px){
+    /*--------estilos globales ------------*/
+    .img-responsive{
+        width: 33%;
+    }
+    .navbar-inverse .navbar-toggle{
+        color: #fff;
+        border: 1px solid #fff;
+    }
+    .nav .dropdown{
+        padding: 0px;
+    }
+    .dropdown-menu, mega-dropdown-menu{
+        background: #fff;  
+        color: #c5241a;
+        padding: 0px;
+    }
+    .dropdown-menu .col-sm-3{
+        border:none;
+    }
+    .mega-dropdown-menu > li > ul > br{
+        display:none;
+    }
+    
+    .mega-dropdown-menu > li > ul > li > a{
+        color:#fff;
+    }
+    .nav .dropdown:hover{
+        background: none;
+    }
+    .dropdown-menu .mega-dropdown-menu{
+        display: none !important;
+    }
+    .mega-dropdown-menu .dropdown-header{
+        color: #fff;
+    }
+    
+    /*---------------------REDES--------------*/
+    .lista{
+        display: none;
+    }
+    
+    /*---------------------PORTADA-----------------*/
+    .portada .box-in{
+        padding-top: 40px;
+    }
+}

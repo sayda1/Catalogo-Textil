@@ -1,0 +1,126 @@
+/**{outline: 1px solid red;}*/
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+body{font-family: 'Titillium Web', sans-serif;}
+
+img {max-width: 100%;}
+
+a {text-decoration: none;}
+a:hover {color: #CC0000;}
+
+.contenido{background: #eee;}
+
+.prenda-producto{
+  background: rgb(229,229,229); 
+  background-size: 100px;
+  padding: 50px 30px 30px 30px;
+}
+
+.gris{
+  background: rgb(247,247,247); 
+  padding-top: 30px; 
+  padding-bottom: 30px;
+}
+.producto-textil{
+  background: rgb(255,255,255); 
+  margin: 20px auto;
+}
+.descripcion-producto{
+  padding: 30px;
+}
+.descripcion-producto ul{
+  margin: 10px 0 0 0;
+  padding: 0; 
+  line-height: 1.8;
+}
+.prenda-color li{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.descripcion-producto .circulo-color{  
+  width:30px;
+  height:30px;
+  background: #000;
+  border-radius: 50%;
+}
+.medio-circulo{
+  height:15px;
+  width:30px;
+  border-radius: 90px 90px 0 0;
+  -moz-border-radius: 90px 90px 0 0;
+  -webkit-border-radius: 90px 90px 0 0;
+  background:green;
+}
+
+.color-circle{ border: 1px solid #000; }
+.color1 {background: rgb(255,0,0);} /*#ff0000*/  /*ROJO*/
+.color2 {background: rgb(0,0,255);} /*#0000ff*/  /*AZUL*/
+.color3 {background: rgb(0,128,0);} /*#008000*/  /*VERDE*/
+.color4 {background: rgb(255,255,0);} /*#FFFF00*/ /*AMARILLO*/
+.color5 {background: rgb(0,0,0);} /*000*/         /*NEGRO*/
+.color6 {background: rgb(12, 183, 242);} /*‎#0CB7F2*/ /*CELESTE*/
+
+.btnfos {
+  color: rgb(21,56,116);
+  cursor: pointer;
+  display: block;
+  line-height: 45px;
+  max-width: 40%;
+  position: relative;
+  vertical-align: middle;
+  width: 100%;
+  margin: 5px 30%;
+}
+a.btnfos{
+  text-decoration: none;
+}
+@media (min-width: 400px) {
+  .btnfos {
+    display: inline-block;
+    margin-right: 2.5em;
+  }
+  .btnfos:nth-of-type(even) {
+    margin-right: 0;
+  }
+}
+@media (min-width: 600px) {
+  .btnfos:nth-of-type(even) {
+    margin-right: 2.5em;
+  }
+  .btnfos:nth-of-type(5) {
+    margin-right: 0;
+  }
+}
+
+.btnfos-1 {
+  /*background: #3498db;*/
+  /*font-weight: 100;*/
+}
+.btnfos-1 svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 45px;
+}
+.btnfos-1 rect {
+  fill: none;
+  stroke: rgb(21,56,116);
+  stroke-width: 3;
+  stroke-dasharray: 422, 0;
+}
+
+.btnfos-1:hover {
+  background: rgba(225, 51, 45, 0);
+  color: rgb(21,56,116);
+  /*letter-spacing: 1px;*/
+  /*font-weight: 900;*/
+}
+.btnfos-1:hover rect {
+  stroke-width: 5;
+  stroke-dasharray: 15, 310;
+  stroke-dashoffset: 48;
+  -webkit-transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+          transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
