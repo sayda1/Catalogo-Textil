@@ -15,27 +15,29 @@
 </head>
 <body>
 <!-------------------------------------SECION MENU DE NAVEGACION-------------------------------->
+<nav class="navbar navbar-default " role="navigation" id="navbar"> 
     <div class="container-fluid">
-      <nav class="navbar navbar-inverse">
         <div class="navbar-header">
-            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-megadropdown-tabs">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <img src="img/logo-textil-blanco.png" class="img-responsive">
+            <div id="logotype"><a><img src="img/logo-textil-blanco.png" ></a></div>
         </div>
-        <div class="collapse navbar-collapse js-navbar-collapse">
+        <div class="navbar-collapse style= collapse in" id="bs-megadropdown-tabs" style="
+        padding-left: 0px;">
             <ul class="nav navbar-nav">
-                <li class="dropdown mega-dropdown"><a class="dropdown-toggle" href="#">INICIO</a></li>
-                <li class="dropdown mega-dropdown"><a class="dropdown-toggle" href="#">QUIENES SOMOS</a></li>
-                <li class="dropdown mega-dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">CATÁLOGO <span class="caret"></span></a>				
-                    <ul class="dropdown-menu mega-dropdown-menu" style="display:none !important;">
-                        <li class="col-sm-3 ">
-                            <ul>
-                                <li class="dropdown-header">Linea Corporativa</li>
+                <li class="border _1 active"><a href="index.html"> INICIO</a></li>
+                <li class="border"><a href="quienesSomos.html"> QUIÉNES SOMOS</a></li>
+                <li class="dropdown mega-dropdown border" id="megamenu">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">CATÁLOGO <span class="caret"></span></a>   
+                   <!-------------------LISTA ENLACES PARA PRENDAS-------------------- -->
+                    <ul class="dropdown-menu mega-dropdown-menu" >
+                        <li class="col-md-3 col-sm-3 list-dropdown">
+                            <ul class="text-left list-unstyled">
+                                <li class="dropdown-header ">Linea Corporativa</li>
                                 <li><a href="blusa-modelos.html"> Blusa</a></li>
                                 <li><a href="camisa-modelos.html"> Camisa</a></li>
                                 <li><a href="#modelosDefalada"> Falda</a></li>         
@@ -47,42 +49,42 @@
                                 <br>        
                             </ul>
                         </li>
-                        <li class="col-sm-3">
-                            <ul>
-                             <li class="dropdown-header">Linea Industrial</li>
-                                    <li><a href="#modelosDeMameluco"> Mameluco</a></li>
-                                    <li><a href="#modelosDeChaleco"> Chaleco</a></li>
-                                    <li><a href="camisa-modelos.html"> Camisa</a></li>
-                                    <li><a href="#modelosDePantalon"> Pantalón</a></li>
-                                    <li><a href="casaca-modelos.html"> Casaca</a></li>
-                                    <li><a href="#modelosDeCasco"> Casco</a></li>
-                                    <br><br><br>
+                        <li class="col-md-3 col-sm-3 list-dropdown">
+                            <ul class="text-left list-unstyled">
+                                <li class="dropdown-header">Linea Industrial</li>
+                                <li><a href="#modelosDeMameluco"> Mameluco</a></li>
+                                <li><a href="#modelosDeChaleco"> Chaleco</a></li>
+                                <li><a href="camisa-modelos.html"> Camisa</a></li>
+                                <li><a href="#modelosDePantalon"> Pantalón</a></li>
+                                <li><a href="casaca-modelos.html"> Casaca</a></li>
+                                <li><a href="#modelosDeCasco"> Casco</a></li>
+                                <br><br><br>
                             </ul>
                         </li>
-                        <li class="col-sm-3">
-                            <ul>
+                        <li class="col-md-3 col-sm-3 list-dropdown">
+                            <ul class="text-left list-unstyled">
                                 <li class="dropdown-header">Linea Deportiva</li>
                                 <li><a href="buzos-modelos.html"> Buzo</a></li>
                                 <li><a href="#modelosDePolera"> Polera</a></li>
                                 <li><a href="#modelosDePolos"> Polo</a></li>
                                 <li><a href="#modelosDePantaloneta"> Pantaloneta</a></li>
-                                <li><a href="#modelosDeBVD"> BVD</a></li>                     
+                                <li><a href="#modelosDeBVD"> BVD</a></li>                         
                             </ul>
-                             <ul>
+                            <ul class="text-left list-unstyled">
                                 <li class="dropdown-header">Linea Publicitario</li>
-                                <li><a href="#"> Gorro</a></li>
-                                <li><a href="#"> Mochila</a></li>
-                                <li><a href="#"> Merchandising</a></li>
+                                <li><a href="#modelosDeGorro"> Gorro</a></li>
+                                <li><a href="#modelosDeMochila"> Mochila</a></li>
+                                <li><a href="#modelosDeMerchandising"> Merchandising</a></li>
                             </ul>
                         </li>
-                        <li class="col-sm-3">
-                            <ul>
+                        <li class="col-md-3 col-sm-3 list-dropdown col-ultimo">
+                            <ul class="text-left list-unstyled">
                                 <li class="dropdown-header">Linea Escolar</li>
                                 <li><a href="buzos-modelos.html"> Buzo</a></li>
                                 <li><a href="#modelosDePantalon"> Pantalón</a></li>
                                 <li><a href="moledosDeFalda"> Falda</a></li>
                             </ul>
-                            <ul>
+                            <ul class="text-left list-unstyled">
                                 <li class="dropdown-header">Otros</li>
                                 <li><a href="#modeloDeCortinas"> Cortinas</a></li>
                                 <li><a href="#modeloDeCortinas"> Mandil</a></li>
@@ -91,23 +93,39 @@
                                 <li><a href="#modeloDeSabanas"> Sábana</a></li>
                             </ul>
                         </li>
-                    </ul>				
+                    </ul>               
                 </li>
-               <li class="dropdown mega-dropdown estilos"><a class="dropdown-toggle" href="#" >CONTÁCTO</a></li>
+                <!-- -------------FIN DE LISTA--------------- ------- -->
+                <li class="border"><a href="contacto.html" >CONTÁCTO </a></li>
             </ul>
-           <!---------------------REDES------------------>
-            <div class="nav navbar-nav navbar-right">
-                <ul class="list-inline lista">
-                    <li class="redes youtube"><i class="fa fa-youtube-play"></i></li>
-                    <li class="redes facebook"><i class="fa fa-facebook"></i></li>
-                    <li class="contacto telefono"><i class="fa fa-phone"></i> <span>959174008</span> </li>
-                    <li class="contacto"><span>|</span></li>
-                    <li class="contacto correo"><i class="fa fa-envelope"></i> <span>ventas@pazperuong.org</span></li>
-                </ul>
-            </div>
+            <ul class="nav navbar-nav  navbar-right hidden-sm">
+                <div class="redes pull-right">
+                    <section>
+                      <div class="inner">
+                        <ul class="activity list-inline list-unstyled">
+                          <div class="red face" style="position:absolute;margin-left: -39px; background:#fff;">
+                            <a href="https://www.facebook.com/confeccionesPazPeru/"><i class="fa fa-facebook"></i></a>
+                          </div>
+                          <div class="red youtube" style="display:inline-block;position:absolute;margin-left:-80px; background:#fff;">
+                            <a href="https://www.youtube.com/channel/UCRG-gn5MD-v2oaclvDTegnQ"><i class="fa fa-youtube-play"></i></a>
+                          </div>
+                          <div class="text-contact" style="display: inline-block;">
+                            <div class="contact tel" style="display: inline-block;">
+                               <a style="color: #fff; font-weight: 500;"><i class="fa fa-phone"></i> 959174008</a>
+                            </div>
+                            <span class="span" style="color: #fff;">|</span>
+                            <div class="contact email" style="display: inline-block;">
+                              <a href class="" style="font-size: 15px;"><i class="fa fa-envelope"></i> ventas@pazperuong.org</a>
+                            </div>
+                          </div>
+                        </ul>
+                      </div>
+                    </section>
+                </div>
+            </ul>
         </div>
-      </nav>
     </div>
+</nav>
 <!----------------------------------------PORTADA PRINCIPAL------------------------------------->
 <div class="portada">
     <div class="container">
@@ -397,7 +415,8 @@
     </div>
 </div>
 </body>
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/bootstrap.js"></script>
-    <script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/jquery-1.12.3.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+<script src="js/index.js"></script>
 </html>

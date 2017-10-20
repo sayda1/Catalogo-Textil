@@ -2,7 +2,6 @@ $(document).ready(init);
 
 function init(){
     listaDePrendas();
-    menuHover();
 }
 
 var lista;
@@ -67,17 +66,3 @@ function listaDePrendas(){
     alert('hola mundo');    
     location.href= evt.currentTarget.list;
 }*/
-
-//FUNCION DE MENU HOVER
-function menuHover(){
-    $(".dropdown").hover(            
-        function() {
-            $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true,true).slideDown("400");
-            $(this).toggleClass('open');        
-        },
-        function() {
-            $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true,true).slideUp("400");
-            $(this).toggleClass('open');       
-        }
-    );
-}
