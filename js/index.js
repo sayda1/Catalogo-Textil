@@ -51,7 +51,7 @@ function listaDePrendas(){
     
     var carga3 ='';
      for( var y in lista3){
-        var html3 = '<div class="col-md-3 col-xs-6"><div class="product"><img src="'+lista3[y].img+'"><hr style="margin: 10px 0; border-top: 1px solid #ccc" class="line"><div class="text"><h5>Serie<span>'+lista3[y].Linea+'</span></h5><p>'+lista3[y].Ropa+'</p></div><hr classs="line"><p><strong>Talla:</strong>'+lista3[y].Talla+'</p><hr><button>Ver detalles</button> <i class="fa fa-plus-circle"></i></div></div>'
+        var html3 = '<div class="col-md-3 col-sm-3 col-xs-6"><div class="product"><img src="'+lista3[y].img+'"><hr style="margin: 10px 0; border-top: 1px solid #ccc" class="line"><div class="text"><h5>Serie<span>'+lista3[y].Linea+'</span></h5><p>'+lista3[y].Ropa+'</p></div><hr classs="line"><p><strong>Talla:</strong>'+lista3[y].Talla+'</p><hr><button>Ver detalles</button> <i class="fa fa-plus-circle"></i></div></div>'
         
         carga3+=html3;
         $('#lista3').html(carga3);

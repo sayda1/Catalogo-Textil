@@ -170,11 +170,17 @@
 
 @media (max-width:764px) and (min-width:319px){
     #navbar{
-        z-index: 1;
+        z-index: 2;
     }
     .clientes{
         display:none;
     }
 }
 
+/*---------------ESTILOS DE FOOTER----------*/
+@media(max-width:764px){
+    .footer{
+        padding-left:40px;
+    }
+}
 
