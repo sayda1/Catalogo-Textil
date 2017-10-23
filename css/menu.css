@@ -20,7 +20,7 @@
 .mega-dropdown-menu {padding: 20px 15px 15px; text-align: center; width: 100%;}
 #login-dp .help-block{ font-size:12px}
 #login-dp .bottom{background-color:rgba(255,255,255,.8); border-top:1px solid #ddd; clear:both; padding:14px;}
-.navbar-nav {padding-left: 40px; /*padding-top: 25px;---*/}
+.navbar-nav {padding-left: 40px;}
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {border-color: #00486c;}
 .container-fluid {
     padding-right: 30px;
@@ -75,89 +75,7 @@
 #megamenu .mega-dropdown-menu .list-dropdown .dropdown-header{color:rgb(197,36,26); font-size: 15px; padding: 3px 0px; 
   text-transform: uppercase; font-weight: bold;}
 #megamenu .mega-dropdown-menu .col-md-3{padding: 0 25px; border-right: 1px dashed #ccc;}
-#megamenu .mega-dropdown-menu .col-ultimo{ border-right: 0px;}-
-/*
-.navbar{
-    border-radius: 0px;
-}
-.container-fluid{
-    padding: 0px;
-    margin: 0px;
-}
-.navbar-inverse{
-    background-color:#c5241a;
-    border-color: transparent;
-    margin-bottom: 0px;
-}
-.navbar-inverse .mega-dropdown{
-    border-right: 1px solid #ffffff;
-    padding: 1px 18px 28px 9px;
-}
-.navbar-inverse .mega-dropdown:hover{
-    background: black;
-}
-.navbar-inverse .navbar-nav>li>a{
-    top: 15px;
-    color: #ffffff;
-}
-
-.mega-dropdown {
-  position: static !important;
-}
-.facebook , .youtube{
-    top:20px;
-    border-radius: 200px;
-    background-color: #fff; 
-    width: 10%;
-    height: 40px;
-    margin: 3px
-}
-.facebook i , .youtube  i{
-    color: #c5241a;
-    font-size: 20px;
-}
-
-.mega-dropdown-menu {
-    padding:20px 0px;
-    width:100%;
-    box-shadow: none;
-    -webkit-box-shadow: none;
-}
-.mega-dropdown-menu{
-    background-color: white;
-}
-.mega-dropdown-menu > li > ul {
-  padding: 0;
-  margin: 0;
-}
-.mega-dropdown-menu > li > ul > li {
-  list-style: none;
-}
-
-.mega-dropdown-menu > li > ul > li > a {
-  display: block;
-  color: #000000;
-  padding: 3px 5px;
-}
-.mega-dropdown-menu > li ul > li > a:hover,
-.mega-dropdown-menu > li ul > li > a:focus {
-  text-decoration: none;
-}
-
-.mega-dropdown-menu .dropdown-header {
-  font-size: 15px;
-  color: #000000;
-  padding: 5px 60px 5px 5px;
-  line-height: 13px;
-  font-weight: 600;
-}
-.lista-menu{
-    border-left: 1px dashed #ccc;
-}
-.navbar-header{
-    padding: 0px 25px;
-    border-right: 1px solid white;
-}---*/
+#megamenu .mega-dropdown-menu .col-ultimo{ border-right: 0px;}
 /*-----------redes-------*/
 .redes section .activity .email a:hover{color:#2199e8;}
 .redes .contact {display: inline-block; margin: 0 10px;}
@@ -198,9 +116,6 @@
   right: 0;
   top: 0;
 }
-
-
-
 /*-----------footer----------*/
 .footer{background: rgb(197,36,26); padding: 15px 0; color: #fff; font-size: 13px;}
 .footer a{color: #fff;}
@@ -231,7 +146,6 @@
   #megamenu .mega-dropdown-menu .list-dropdown .dropdown-header{color:#fff; font-size: 14px; padding: 3px 0px; font-weight: bold;}
   #megamenu .mega-dropdown-menu .col-md-3{ border-right:0px;}
   #megamenu .mega-dropdown-menu .col-ultimo{ border-right: 0px;}
-
     .navbar-nav>li>.dropdown-menu{background-color:rgba(255,255,255,.8); padding-top: 0px;}
     .navbar-default .navbar-header .navbar-brand{padding: 0px;}
 }
@@ -253,3 +167,14 @@
   .footer .col2-xs{margin-top: -10px;}
   .footer2 .menu-footer{margin-top:15px; }
 }
+
+@media (max-width:764px) and (min-width:319px){
+    #navbar{
+        z-index: 1;
+    }
+    .clientes{
+        display:none;
+    }
+}
+
+
