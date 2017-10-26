@@ -4,7 +4,6 @@ $(".zoom_01").elevateZoom({
   lensSize    : 200
 });
 
-
 //initiate the plugin and pass the id of the div containing gallery images
 $("#img_01").elevateZoom({constrainType:"height", constrainSize:425, lensShape : "round", zoomType: "lens", containLensZoom: true, gallery:'gallery_01', cursor: 'pointer', galleryActiveClass: "active"}); 
 
