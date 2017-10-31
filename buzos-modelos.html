@@ -2,32 +2,21 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<title>BUZOS</title>
-   
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>BUZOS</title>	
     <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/prenda.css">
     <link rel="stylesheet" type="text/css" href="css/font.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
-    <link rel="stylesheet" href="css/prenda.css">
-    <link rel="stylesheet" href="css/formulario.css">
     <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/formulario.css">
     <link rel="stylesheet" href="css/contacto.css">
-    
-    <script type="text/javascript" src="js/jquery-1.12.3.js"></script>
-    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-    <script src='js/jquery-1.8.3.min.js'></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
-    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-    <script src="js/collapse.js"></script>
-	<script src='js/jquery.elevatezoom-3.0.8.min.js'></script>
 </head>
 <body>
-
-<nav class="navbar navbar-default" role="navigation" id="navbar">
+<!-------------------MENU--RESPONSIVE--------------------------------->
+<nav class="navbar navbar-default " role="navigation" id="navbar">   <!-- navbar-fixed-top -->
     <div class="container-fluid">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-megadropdown-tabs">
@@ -42,7 +31,7 @@
         padding-left: 0px;">
             <ul class="nav navbar-nav">
                 <li class="border _1"><a href="index.html"> INICIO</a></li>
-                <li class="border"><a href="quienesSomos.html"> QUIÉNES SOMOS</a></li>
+                <li class="border active"><a href="quienesSomos.html"> QUIÉNES SOMOS</a></li>
                 <li class="dropdown mega-dropdown border" id="megamenu">
                     <a href="blusa-modelos.html" class="dropdown-toggle" data-toggle="dropdown">CATÁLOGO <span class="caret"></span></a>   
                     <!-- ---------MENU DE CATALOGO--------- -->        
@@ -67,7 +56,7 @@
                                 <li><a href="#modelosDeMameluco"> Mameluco</a></li>
                                 <li><a href="#modelosDeChaleco"> Chaleco</a></li>
                                 <li><a href="camisa-modelos.html"> Camisa</a></li>
-                                <li><a href="#modelosDePantalon"> Pazntalón</a></li>
+                                <li><a href="#modelosDePantalon"> Pantalón</a></li>
                                 <li><a href="casaca-modelos.html"> Casaca</a></li>
                                 <li><a href="#modelosDeCasco"> Casco</a></li>
                                 <br><br><br>
@@ -112,7 +101,7 @@
             </ul>
             <ul class="nav navbar-nav  navbar-right hidden-sm">
                 <div class="redes pull-right">
-                    
+                    <section>
                       <div class="inner">
                         <ul class="activity list-inline list-unstyled">
                           <div class="red face" style="display:inline-block;position:absolute;margin-left: -39px; background:#fff;">
@@ -132,14 +121,16 @@
                           </div>
                         </ul>
                       </div>
-            
+                    </section>
                 </div>
             </ul>
         </div>
     </div>
 </nav>
+<!----------------SECION DE PRODU--------------------------->
 <div class="section-product">
 	<div class="container contenido">
+	    <h1 class="text-center">BUZOS</h1>
 		<div class="producto-textil row">
 			<div class="col-md-6 text-center gris">
 				<img class="zoom_01" src='img/small/buzo-modelo1.png' data-zoom-image="img/large/buzo-modelo1.jpg"/>
@@ -147,19 +138,143 @@
 			<div class="col-md-6 descripcion-producto">
 				<h3><strong>BUZO: Modelo 1</strong></h3>
 				<hr>
+				<h4>Descripción</h4>
+                <ul class="list-unstyled">
+                    <li>
+                        <ul class="list-unstyled list-inline row">
+                            <li class="col-md-3">Tipo de prenda:</li>
+                            <li class="col-md-9">Blusa con escote, Modelo empresarial</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="list-unstyled list-inline row">
+                            <li class="col-md-3">Tela:</li>
+                            <li class="col-md-9">Oxford</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="list-unstyled list-inline row">
+                            <li class="col-md-3">Forro:</li>
+                            <li class="col-md-9">Polar / Micropolar</li>
+                        </ul>
+                    </li> 
+                    <li>
+                        <ul class="list-unstyled list-inline row">
+                            <li class="col-md-3">Color:</li>
+                            <li class="col-md-9">
+                                <ul class="list-unstyled list-inline prenda-color">
+                                    <li class="color1"></li> <!-- ROJO -->
+                                    <li class="color2"></li> <!-- AZUL -->
+                                    <li class="color3"></li> <!-- VERDE -->
+                                    <li class="color4"></li> <!-- AMARILLO -->
+                                    <li class="color5"></li> <!-- NEGRO -->
+                                    <li class="color6"></li> <!-- CELESTE -->
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+				<hr>
+				
+				<!-------TALLA class="row">
+					<div class="col-md-3"><h4>Talla: </h4></div>
+					<div class="col-md-9">
+						<ul class="list-unstyled list-inline prenda-talla">
+							<li class="talla">XL</li>
+							<li class="talla">L</li>
+							<li class="talla">M</li>
+							<li class="talla">S</li>
+							<li class="talla">XS</li>
+						</ul>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3"><h4>Colores: </h4></div>
+					<div class="col-md-9">
+						<ul class="list-unstyled list-inline prenda-color">
+							<li class="color1"></li>
+							<li class="color2"></li>
+							<li class="color3"></li>
+							<li class="color4"></li>
+							<li class="color5"></li>
+						</ul>
+					</div>
+				</div> -->
+				 <a class="btnfos btnfos-1 text-center" data-toggle="modal" data-target="#squarespaceModal"><svg><rect x="0" y="0" fill="none" width="100%" height="100%"/></svg>Haz tu consulta</a>
+			</div>
+		</div>
+		<div class="producto-textil row">
+			<div class="col-md-6 text-center gris">
+				<img class="zoom_01" src='img/small/buzo-modelo2.png' data-zoom-image="img/large/buzo-modelo2.jpg"/>
+			</div>
+			<div class="col-md-6 descripcion-producto">
+				<h3><strong>BUZO: Modelo 2</strong></h3>
+				<hr>
 				<h4><strong>Descripción</strong></h4>
 				<div class="">
 					<ul class="list-unstyled">
 						<li>
 							<ul class="list-unstyled list-inline row">
 								<li class="col-md-3"><strong>Tipo de prenda:</strong></li>
-								<li class="col-md-9">Buzo completo con aplicaciones sin forro</li>
+								<li class="col-md-9">Conjunto de buzo con aplicaciones</li>
 							</ul>
 						</li>
 						<li>
 							<ul class="list-unstyled list-inline row">
 								<li class="col-md-3"><strong>Tela:</strong></li>
-								<li class="col-md-9">Polinam</li>
+								<li class="col-md-9">Poliman</li>
+							</ul>
+						</li>
+						<!-- <li>
+							<ul class="list-unstyled list-inline row">
+								<li class="col-md-3">Forro:</li>
+								<li class="col-md-9">Polar / Micropolar</li>
+							</ul>
+						</li> -->
+						<li>
+							<ul class="list-unstyled list-inline row">
+								<li class="col-md-3"><strong>Color:</strong></li>
+								<li class="col-md-9">
+									<ul class="list-unstyled list-inline prenda-color">
+										<li class="color1"></li> <!-- ROJO -->
+										<li class="color2"></li> <!-- AZUL -->
+										<li class="color3"></li> <!-- VERDE -->
+										<li class="color4"></li> <!-- AMARILLO -->
+										<li class="color5"></li> <!-- NEGRO -->
+										<li class="color6"></li> <!-- CELESTE -->
+									</ul>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>		
+				
+				<hr>
+
+				 <a class="btnfos btnfos-1 text-center" data-toggle="modal" data-target="#squarespaceModal"><svg><rect x="0" y="0" fill="none" width="100%" height="100%"/></svg>Haz tu consulta</a>
+				<!-- <div class="center"><button data-toggle="modal" data-target="#squarespaceModal" class="btn btn-primary center-block">Haz tu consulta aqui</button></div> -->
+			</div>
+		</div>
+		<div class="producto-textil row">
+			<div class="col-md-6 text-center gris">
+				<img class="zoom_01" src='img/small/buzo-modelo3.png' data-zoom-image="img/large/buzo-modelo3.jpg"/>
+			</div>
+			<div class="col-md-6 descripcion-producto">
+				<h3><strong>BUZO: Modelo 3</strong></h3>
+				<hr>
+				<h4><strong>Descripción</strong></h4>
+				<div class="">
+					<ul class="list-unstyled">
+						<li>
+							<ul class="list-unstyled list-inline row">
+								<li class="col-md-3"><strong>Tipo de prenda:</strong></li>
+								<li class="col-md-9">Blusa de manga 3/4</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="list-unstyled list-inline row">
+								<li class="col-md-3"><strong>Tela:</strong></li>
+								<li class="col-md-9">Popelina color entero</li>
 							</ul>
 						</li>
 						<!-- <li>
@@ -173,12 +288,12 @@
 								<li class="col-md-3"><strong>Color:</strong></li>
 								<li class="col-md-9">
 									<ul class="list-unstyled list-inline prenda-color">
-											<li class="color1"></li> <!-- ROJO -->
-											<li class="color2"></li> <!-- AZUL -->
-											<!-- <li class="color3"></li> --> <!-- VERDE -->
-											<!-- <li class="color4"></li> --> <!-- AMARILLO -->
-											<li class="color5"></li> <!-- NEGRO -->
-											<!-- <li class="color6"></li> --> <!-- CELESTE -->
+										<!-- <li class="color1"></li> --> <!-- ROJO -->
+										<li class="color2"></li> <!-- AZUL -->
+										<!-- <li class="color3"></li> --> <!-- VERDE -->
+										<li class="color4"></li> <!-- AMARILLO -->
+										<!-- <li class="color5"></li> --> <!-- NEGRO -->
+										<!-- <li class="color6"></li> --> <!-- CELESTE -->
 									</ul>
 								</li>
 							</ul>
@@ -187,119 +302,15 @@
 				</div>		
 				
 				<hr>
-
-				 <a class="btnfos btnfos-1 text-center" data-toggle="modal" data-target="#squarespaceModal"><svg><rect x="0" y="0" fill="none" width="100%" height="100%"/></svg>Haz tu consulta</a>
-				<!-- <div class="center"><button data-toggle="modal" data-target="#squarespaceModal" class="btn btn-primary center-block">Haz tu consulta aqui</button></div> -->
-			</div>
-		</div>
-		<div class="producto-textil row">
-				<div class="col-md-6 text-center gris">
-					<img class="zoom_01" src='img/large/buzo-modelo2.jpg' data-zoom-image="img/large/buzo-modelo2.jpg"/>
-				</div>
-				<div class="col-md-6 descripcion-producto">
-					<h3><strong>BUZO: Modelo 2</strong></h3>
-					<hr>
-					<h4><strong>Descripción</strong></h4>
-					<div class="">
-						<ul class="list-unstyled">
-							<li>
-								<ul class="list-unstyled list-inline row">
-									<li class="col-md-3"><strong>Tipo de prenda:</strong></li>
-									<li class="col-md-9">Buzo completo con aplicaciones sin forro.</li>
-								</ul>
-							</li>
-							<li>
-								<ul class="list-unstyled list-inline row">
-									<li class="col-md-3"><strong>Tela:</strong></li>
-									<li class="col-md-9">Polyalgodón</li>
-								</ul>
-							</li>
-							<!-- <li>
-								<ul class="list-unstyled list-inline row">
-									<li class="col-md-3"><strong>Forro:</strong></li>
-									<li class="col-md-9">Polar / Micropolar</li>
-								</ul>
-							</li> -->
-							<li>
-								<ul class="list-unstyled list-inline row">
-									<li class="col-md-3"><strong>Color:</strong></li>
-									<li class="col-md-9">
-										<ul class="list-unstyled list-inline prenda-color">
-											<li class="color1"></li> <!-- ROJO -->
-											<li class="color2"></li> <!-- AZUL -->
-											<!-- <li class="color3"></li> --> <!-- VERDE -->
-											<!-- <li class="color4"></li> --> <!-- AMARILLO -->
-											<li class="color5"></li> <!-- NEGRO -->
-											<!-- <li class="color6"></li> --> <!-- CELESTE -->
-										</ul>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</div>		
-					
-					<hr>
-					
-					 <a class="btnfos btnfos-1 text-center" data-toggle="modal" data-target="#squarespaceModal"><svg><rect x="0" y="0" fill="none" width="100%" height="100%"/></svg>Haz tu consulta</a>
-					<!-- <div class="center"><button data-toggle="modal" data-target="#squarespaceModal" class="btn btn-primary center-block">Haz tu consulta aqui</button></div> -->
-				</div>
-		</div>
-		<div class="producto-textil row">
-			<div class="col-md-6 text-center gris">
-				<img class="zoom_01" src='img/large/buzo-modelo3.jpg' data-zoom-image="img/large/buzo-modelo3.jpg"/>
-			</div>
-			<div class="col-md-6 descripcion-producto">
-				<h3><strong>BUZO: Modelo 3</strong></h3>
-				<hr>
-				<h4><strong>Descripción</strong></h4>
-				<div class="">
-					<ul class="list-unstyled">
-						<li>
-							<ul class="list-unstyled list-inline row">
-								<li class="col-md-3"><strong>Tipo de prenda:</strong></li>
-								<li class="col-md-9">Buzo completo con aplicaciones.</li>
-							</ul>
-						</li>
-						<li>
-							<ul class="list-unstyled list-inline row">
-								<li class="col-md-3"><strong>Tela:</strong></li>
-								<li class="col-md-9">Tafeta.</li>
-							</ul>
-						</li>
-						<li>
-							<ul class="list-unstyled list-inline row">
-								<li class="col-md-3"><strong>Forro:</strong></li>
-								<li class="col-md-9">Algodón</li>
-							</ul>
-						</li>
-						<li>
-							<ul class="list-unstyled list-inline row">
-								<li class="col-md-3"><strong>Color:</strong></li>
-								<li class="col-md-9">
-									<ul class="list-unstyled list-inline prenda-color">
-										<!-- <li class="color1"></li> -->
-										<!-- <li class="color2"></li> -->
-										<li class="color3"></li>
-										<!-- <li class="color4"></li> -->
-										<!-- <li class="color5"></li> -->
-									</ul>
-								</li>
-							</ul>
-						</li>
-					</ul>
-				</div>		
-				
-				<hr>
-				
 				 <a class="btnfos btnfos-1 text-center" data-toggle="modal" data-target="#squarespaceModal"><svg><rect x="0" y="0" fill="none" width="100%" height="100%"/></svg>Haz tu consulta</a>
 				<!-- <div class="center"><button data-toggle="modal" data-target="#squarespaceModal" class="btn btn-primary center-block">Haz tu consulta aqui</button></div> -->
 			</div>
 		</div>
 	</div>
+</div>
 
-	<!-- ---------section-contacto--------- -->
-
-	<div class="fondo-formulario">
+<!-- ---------section-contacto--------- -->
+<div class="fondo-formulario">
     <div class="container formulario">
         <h2 style="color: #fff;">Solicita tu pedido</h2>
         <div class="row">
@@ -464,7 +475,6 @@
         </div>
     </div>
 </div>
-</div>
 <div class="footer">
     <div class="container">
         <div class="row">
@@ -536,14 +546,13 @@
         </div>
     </div>
 </div>
-
+<script type="text/javascript" src="js/jquery-1.12.3.js"></script>
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+<script src="js/collapse.js"></script>
+<script src='js/jquery.elevatezoom-3.0.8.min.js'></script>
+<script src="js/zoom.js"></script>
 </body>
-<script>
-$(".zoom_01").elevateZoom({
-  zoomType : "lens",
-  lensShape : "round",
-  lensSize    : 200
-});
-</script>
-
 </html>
