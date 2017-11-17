@@ -8,14 +8,10 @@ $(document).ready(function() {
 window.onload = function () {
     /* Variables globales (por estar declaradas sin var) */
     casillaDatos = document.getElementById('datos'); //Nodo donde vamos a mostrar los datos
-
     checkboxElements = new Array();
-
     var elementosSelect = document.getElementsByTagName('select');
-
     for (var i=0; i<elementosSelect.length;i++) {elementosSelect[i].addEventListener("change", actualizarDatos);}
 }
- 
 function actualizarDatos() {
 var checkBoxSel = new Array();
 for (var i=0; i<checkboxElements.length;i++) {

@@ -7,8 +7,6 @@ $(document).scroll(function() {
     }
 
 });
-
 $(".navbar-toggle").click(function(){
   $(this).toggleClass("open");
 });
-
