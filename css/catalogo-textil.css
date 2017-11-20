@@ -88,6 +88,8 @@ figure.snip1190:hover .square div:after, figure.snip1190.hover .square div:after
 .section-product .gallery .product{background-color: #fff; padding: 15px; border: 1px solid #fff;}
 .section-product .pd-bottom{margin-bottom: 15px;}
 .section-product .gallery button{font-weight: bold; text-shadow: 0 1px 0 #fff;}
+.section-product .gallery button .verDetalles{ color: black}
+.section-product .gallery button .verDetalles:hover{ color: white; text-decoration: none}
 .section-product .gallery .product:hover button{background-color: rgb(171,42,35); color: white; border: 1px solid #ccc; text-shadow:none; font-weight: normal;}
 .section-product .gallery .product .text hr{border-top: 1px solid #ccc; margin: 0 0 15px;}
 .section-product .gallery .product:hover hr{border-top: 1px solid rgb(171,42,35);}
