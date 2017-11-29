@@ -7,7 +7,7 @@ body{
 }
 .section-info {
     width: 100%; 
-    height: 64vh; font-weight: 500;
+    height: 80vh; font-weight: 500;
     font-size: 15px;
 }
 .section-info h2{
@@ -17,6 +17,10 @@ body{
 .section-info .imagen{
     padding-right: 0px; 
     padding-left: 0px;
+}
+.section-info .text{
+    position: relative;
+    top: 120px;
 }
 /*.section-info .carousel-inner .item img{
     width: 100%;
@@ -30,10 +34,10 @@ body{
 /********************************/
 .fade-carousel {
     position: relative;
-    height: 100vh;
+    height:75vh;
 }
 .fade-carousel .carousel-inner .item {
-    height: 100vh;
+    height: 80vh;
 }
 .fade-carousel .carousel-indicators > li {
     margin: 0 2px;
@@ -66,7 +70,7 @@ body{
               transform: translate3d(-50%,-50%,0);
 }
 .hero h1 {
-    font-size: 6em;    
+    font-size: 3em;    
     font-weight: bold;
     margin: 0;
     padding: 0;
