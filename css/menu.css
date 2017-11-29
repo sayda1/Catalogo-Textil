@@ -176,11 +176,3 @@
         display:none;
     }
 }
-
-/*---------------ESTILOS DE FOOTER----------*/
-@media(max-width:764px){
-    .footer{
-        padding-left:40px;
-    }
-}
-
