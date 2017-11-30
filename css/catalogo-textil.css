@@ -293,6 +293,9 @@ figure.snip1190:hover .square div:after, figure.snip1190.hover .square div:after
 }
 
 @media (max-width:764px) and (min-width:319px){
+    .portada{
+        background-image: url(../img/slider1.JPG)
+    }
     .portada .box-in h1{
         text-align: center;
     }
