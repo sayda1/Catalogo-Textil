@@ -125,17 +125,3 @@ body{
 .fade-carousel .slides .slide-3 {
   background-image: url("../img/slider4.JPG");
 }
-/*********** Media Queries **********/
-@media screen and (min-width: 980px){
-    .hero { width: 980px; }    
-}
-@media screen and (max-width: 640px){
-    .hero h1 { font-size: 4em; }    
-}
-/*------------------RESPONSIVE-----------------*/
-@media (max-width:764px) and (min-width:240px){
-    .section-info .text{
-        height: auto;
-        text-align: center;
-    }
-}

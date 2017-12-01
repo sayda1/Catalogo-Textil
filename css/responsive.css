@@ -1,3 +1,4 @@
+/*-------------------INICIO----------------------*/
 @media (max-width:764px) and (min-width:319px){
     /*--------estilos globales ------------*/
     .img-responsive{
@@ -45,3 +46,23 @@
         padding-top: 40px;
     }
 }
+/*-------------------QUIENES SOMOS----------------------*/
+/*********** Media Queries **********/
+@media screen and (min-width: 980px){
+    .hero { width: 980px; }    
+}
+@media screen and (max-width: 640px){
+    .hero h1 { font-size: 3em; }    
+}
+/*------------------RESPONSIVE-----------------*/
+@media (max-width:764px) and (min-width:240px){
+    .quienesSomos{
+        height: 194vh;
+    }
+    .section-info .text{
+        height: auto;
+        position: relative;
+        top: 65px;
+    }
+}
+
