@@ -40,24 +40,31 @@
     .lista{
         display: none;
     }
-    
+    .redes section a{
+        display: none;
+    }
     /*---------------------PORTADA-----------------*/
     .portada .box-in{
         padding-top: 40px;
     }
 }
 /*-------------------QUIENES SOMOS----------------------*/
-/*********** Media Queries **********/
+/*----------------------CARRUSEL---------------------------*/
 @media screen and (min-width: 980px){
     .hero { width: 980px; }    
 }
 @media screen and (max-width: 640px){
     .hero h1 { font-size: 3em; }    
 }
+@media screen and (max-width: 320){
+    .quienesSomos {
+        height: 135;
+    }
+}
 /*------------------RESPONSIVE-----------------*/
 @media (max-width:764px) and (min-width:240px){
     .quienesSomos{
-        height: 194vh;
+        height: 209vh;
     }
     .section-info .text{
         height: auto;
@@ -65,4 +72,45 @@
         top: 65px;
     }
 }
-
+/*-------------------------CELULAR--PAD---------------------------------*/
+@media (max-width:1024px) and (min-width:768px){
+    .quienesSomos{
+        height: 126vh;
+    }
+    .quienesSomos .imagen , .text{
+        width: 100%;
+    }
+    .fade-carousel .slides .slide-1, .fade-carousel .slides .slide-2, .fade-carousel .slides .slide-3{
+        height: 66vh;
+    }
+    .carousel-indicators{
+        bottom: 127px;
+    }
+    .hero{
+        top: 37%;
+    }
+    .section-info .text{
+        top: -17px;
+    }
+    .footer2 .container{
+        padding: 0px;
+    }
+}
+/*-------------------------CELULAR--PAD--PRO-------------------------------*/
+@media (max-width:1366px) and (min-width:1024px){
+    .quienesSomos{
+        height: 80vh;
+    }
+    .fade-carousel{
+        height: 50vh;
+    }
+     .fade-carousel .carousel-inner .item{
+        height: 57vh;
+    }
+    .fade-carousel .slides .slide-1, .fade-carousel .slides .slide-2, .fade-carousel .slides .slide-3{
+        height: 45vh;
+    }
+    .footer2 .container{
+        padding: 0px;
+    }
+}
