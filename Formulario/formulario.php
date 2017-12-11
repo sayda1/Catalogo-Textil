@@ -1,5 +1,5 @@
 <?
-$para = "prueva@gmail.com";
+$para = "diseno@pazperuong.org";
 $nombre = $_POST["nombre"];
 $asunto = "MiWebsite enviado por $nombre: ".$_POST["asunto"];
 $mensaje = $_POST["mensaje"];
