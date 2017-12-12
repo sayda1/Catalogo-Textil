@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web');
 body{font-family: 'Titillium Web', sans-serif;}
-*{outline: 1px solid blue;}
+/*{outline: 1px solid blue;}*/
 
 .fondo-direccion{ background: #eee; padding: 10px 0 40px;}
 .fondo-formulario{

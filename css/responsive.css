@@ -115,7 +115,8 @@
 }
 /*--------------------------------PRENDAS-------------------------------------------*/
 @media (max-width:764px) and (min-width:240px){
-    .zoomWindow{
-        display: none !important;
-    }
+    .zoomWindow{display: none !important;}
+}
+@media (max-width:768px) and (min-width:1024px){
+    
 }
