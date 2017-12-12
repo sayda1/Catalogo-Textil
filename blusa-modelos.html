@@ -3,532 +3,519 @@
 <head>
 	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<title>BLUSAS</title>	
     <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/prenda.css">
-    <link rel="stylesheet" type="text/css" href="css/font.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
-    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
     <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/catalogo-textil.css">
     <link rel="stylesheet" href="css/formulario.css">
     <link rel="stylesheet" href="css/contacto.css">
 </head>
 <body>
-<!-------------------MENU--RESPONSIVE--------------------------------->
-<nav class="navbar navbar-default " role="navigation" id="navbar">   <!-- navbar-fixed-top -->
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-megadropdown-tabs">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <div id="logotype"><a><img src="img/logo-textil-blanco.png" ></a></div>
+<!-------------------------------------------------MENU--RESPONSIVE-------------------------------------------->
+    <nav class="navbar navbar-default " role="navigation" id="navbar"> 
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-megadropdown-tabs">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div id="logotype"><a><img src="img/logo-textil-blanco.png" ></a></div>
+            </div>
+            <div class="navbar-collapse style= collapse in" id="bs-megadropdown-tabs" style="
+            padding-left: 0px;">
+                <ul class="nav navbar-nav">
+                    <li class="border _1"><a href="index.html"> INICIO</a></li>
+                    <li class="border"><a href="quienesSomos.html"> QUIÉNES SOMOS</a></li>
+                    <li class="dropdown mega-dropdown border" id="megamenu">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">CATÁLOGO <span class="caret"></span></a>   
+                       <!-----------------------------------LISTA ENLACES PARA PRENDAS---------------------------------------------->
+                        <ul class="dropdown-menu mega-dropdown-menu" >
+                            <li class="col-md-3 col-sm-3 list-dropdown">
+                                <ul class="text-left list-unstyled">
+                                    <li class="dropdown-header ">Linea Corporativa</li>
+                                    <li><a href="blusa-modelos.html"> Blusa</a></li>
+                                    <li><a href="camisa-modelos.html"> Camisa</a></li>
+                                    <li><a href="#modelosDefalada"> Falda</a></li>         
+                                    <li><a href="#modelosDePantalon"> Pantalón</a></li>         
+                                    <li><a href="casaca-modelos.html"> Casaca</a></li>         
+                                    <li><a href="#modelosDeChaqueta"> Chaqueta</a></li>         
+                                    <li><a href="#modelosDeChompa"> Chompa</a></li>         
+                                    <li><a href="#modelosDesaco"> Saco de vestir</a></li>
+                                    <br>        
+                                </ul>
+                            </li>
+                            <li class="col-md-3 col-sm-3 list-dropdown">
+                                <ul class="text-left list-unstyled">
+                                    <li class="dropdown-header">Linea Industrial</li>
+                                    <li><a href="#modelosDeMameluco"> Mameluco</a></li>
+                                    <li><a href="#modelosDeChaleco"> Chaleco</a></li>
+                                    <li><a href="camisa-modelos.html"> Camisa</a></li>
+                                    <li><a href="#modelosDePantalon"> Pantalón</a></li>
+                                    <li><a href="casaca-modelos.html"> Casaca</a></li>
+                                    <li><a href="#modelosDeCasco"> Casco</a></li>
+                                    <br><br><br>
+                                </ul>
+                            </li>
+                            <li class="col-md-3 col-sm-3 list-dropdown">
+                                <ul class="text-left list-unstyled">
+                                    <li class="dropdown-header">Linea Deportiva</li>
+                                    <li><a href="buzos-modelos.html"> Buzo</a></li>
+                                    <li><a href="#modelosDePolera"> Polera</a></li>
+                                    <li><a href="#modelosDePolos"> Polo</a></li>
+                                    <li><a href="#modelosDePantaloneta"> Pantaloneta</a></li>
+                                    <li><a href="#modelosDeBVD"> BVD</a></li>                         
+                                </ul>
+                                <ul class="text-left list-unstyled">
+                                    <li class="dropdown-header">Linea Publicitario</li>
+                                    <li><a href="#modelosDeGorro"> Gorro</a></li>
+                                    <li><a href="#modelosDeMochila"> Mochila</a></li>
+                                    <li><a href="#modelosDeMerchandising"> Merchandising</a></li>
+                                </ul>
+                            </li>
+                            <li class="col-md-3 col-sm-3 list-dropdown col-ultimo">
+                                <ul class="text-left list-unstyled">
+                                    <li class="dropdown-header">Linea Escolar</li>
+                                    <li><a href="buzos-modelos.html"> Buzo</a></li>
+                                    <li><a href="#modelosDePantalon"> Pantalón</a></li>
+                                    <li><a href="moledosDeFalda"> Falda</a></li>
+                                </ul>
+                                <ul class="text-left list-unstyled">
+                                    <li class="dropdown-header">Otros</li>
+                                    <li><a href="#modeloDeCortinas"> Cortinas</a></li>
+                                    <li><a href="#modeloDeCortinas"> Mandil</a></li>
+                                    <li><a href="#modeloDeMantas"> Manta</a></li>
+                                    <li><a href="#modeloDePijasmas"> Pijama</a></li>
+                                    <li><a href="#modeloDeSabanas"> Sábana</a></li>
+                                </ul>
+                            </li>
+                        </ul>               
+                    </li>
+                    <!----------------------------------------FIN DE LISTA---------------------------------------->
+                    <li class="border"><a href="contacto.html" >CONTÁCTO </a></li>
+                </ul>
+                <ul class="nav navbar-nav  navbar-right hidden-sm">
+                    <div class="redes pull-right">
+                        <section>
+                          <div class="inner">
+                            <ul class="activity list-inline list-unstyled">
+                              <div class="red face" style="position:absolute;margin-left: -39px; background:#fff;">
+                                <a href="https://www.facebook.com/confeccionesPazPeru/"><i class="fa fa-facebook"></i></a>
+                              </div>
+                              <div class="red youtube" style="display:inline-block;position:absolute;margin-left:-80px; background:#fff;">
+                                <a href="https://www.youtube.com/channel/UCRG-gn5MD-v2oaclvDTegnQ"><i class="fa fa-youtube-play"></i></a>
+                              </div>
+                              <div class="text-contact" style="display: inline-block;">
+                                <div class="contact tel" style="display: inline-block;">
+                                   <a style="color: #fff; font-weight: 500;"><i class="fa fa-phone"></i> 959174008</a>
+                                </div>
+                                <span class="span" style="color: #fff;">|</span>
+                                <div class="contact email" style="display: inline-block;">
+                                  <a href class="" style="font-size: 15px;"><i class="fa fa-envelope"></i> ventas@pazperuong.org</a>
+                                </div>
+                              </div>
+                            </ul>
+                          </div>
+                        </section>
+                    </div>
+                </ul>
+            </div>
         </div>
-        <div class="navbar-collapse style= collapse in" id="bs-megadropdown-tabs" style="
-        padding-left: 0px;">
-            <ul class="nav navbar-nav">
-                <li class="border _1"><a href="index.html"> INICIO</a></li>
-                <li class="border active"><a href="quienesSomos.html"> QUIÉNES SOMOS</a></li>
-                <li class="dropdown mega-dropdown border" id="megamenu">
-                    <a href="blusa-modelos.html" class="dropdown-toggle" data-toggle="dropdown">CATÁLOGO <span class="caret"></span></a>   
-                    <!-- ---------MENU DE CATALOGO--------- -->        
-                    <ul class="dropdown-menu mega-dropdown-menu" >
-                        <li class="col-md-3 col-sm-3 list-dropdown">
-                            <ul class="text-left list-unstyled">
-                                <li class="dropdown-header">Linea Corporativa</li>
-                                <li><a href="blusa-modelos.html"> Blusa</a></li>
-                                <li><a href="camisa-modelos.html"> Camisa</a></li>
-                                <li><a href="#modelosDefalada"> Falda</a></li>         
-                                <li><a href="#modelosDePantalon"> Pantalón</a></li>         
-                                <li><a href="casaca-modelos.html"> Casaca</a></li>         
-                                <li><a href="#modelosDeChaqueta"> Chaqueta</a></li>         
-                                <li><a href="#modelosDeChompa"> Chompa</a></li>         
-                                <li><a href="#modelosDesaco"> Saco de vestir</a></li>
-                                <br>        
-                            </ul>
-                        </li>
-                        <li class="col-md-3 col-sm-3 list-dropdown">
-                            <ul class="text-left list-unstyled">
-                                <li class="dropdown-header">Linea Industrial</li>
-                                <li><a href="#modelosDeMameluco"> Mameluco</a></li>
-                                <li><a href="#modelosDeChaleco"> Chaleco</a></li>
-                                <li><a href="camisa-modelos.html"> Camisa</a></li>
-                                <li><a href="#modelosDePantalon"> Pantalón</a></li>
-                                <li><a href="casaca-modelos.html"> Casaca</a></li>
-                                <li><a href="#modelosDeCasco"> Casco</a></li>
-                                <br><br><br>
-                            </ul>
-                        </li>
-                        <li class="col-md-3 col-sm-3 list-dropdown">
-                            <ul class="text-left list-unstyled">
-                                <li class="dropdown-header">Linea Deportiva</li>
-                                <li><a href="buzos-modelos.html"> Buzo</a></li>
-                                <li><a href="#modelosDePolera"> Polera</a></li>
-                                <li><a href="#modelosDePolos"> Polo</a></li>
-                                <li><a href="#modelosDePantaloneta"> Pantaloneta</a></li>
-                                <li><a href="#modelosDeBVD"> BVD</a></li>                     
-                            </ul>
-                            <ul class="text-left list-unstyled">
-                                <li class="dropdown-header">Linea Publicitario</li>
-                                <li><a href="#"> Gorro</a></li>
-                                <li><a href="#"> Mochila</a></li>
-                                <li><a href="#"> Merchandising</a></li>
-                            </ul>
-                        </li>
-                        <li class="col-md-3 col-sm-3 list-dropdown col-ultimo">
-                            <ul class="text-left list-unstyled">
-                                <li class="dropdown-header">Linea Escolar</li>
-                                <li><a href="buzos-modelos.html"> Buzo</a></li>
-                                <li><a href="#modelosDePantalon"> Pantalón</a></li>
-                                <li><a href="moledosDeFalda"> Falda</a></li>
-                            </ul>
-                            <ul class="text-left list-unstyled">
-                                <li class="dropdown-header">Otros</li>
-                                <li><a href="#modeloDeCortinas"> Cortinas</a></li>
-                                <li><a href="#modeloDeCortinas"> Mandil</a></li>
-                                <li><a href="#modeloDeMantas"> Manta</a></li>
-                                <li><a href="#modeloDePijasmas"> Pijama</a></li>
-                                <li><a href="#modeloDeSabanas"> Sábana</a></li>
-                            </ul>
-                        </li>
-                    </ul>               
-                    <!-- ---------TERMINA MENU DE CATALOGO--------- -->             
-                </li> 
-                <li class="border"><a href="contacto.html" >CONTÁCTO </a></li>
-            </ul>
-            <ul class="nav navbar-nav  navbar-right hidden-sm">
-                <div class="redes pull-right">
-                    <section>
-                      <div class="inner">
-                        <ul class="activity list-inline list-unstyled">
-                          <div class="red face" style="display:inline-block;position:absolute;margin-left: -39px; background:#fff;">
-                            <a href="https://www.facebook.com/confeccionesPazPeru/"><i class="fa fa-facebook"></i></a>
-                          </div>
-                          <div class="red youtube" style="display:inline-block;position:absolute;margin-left:-80px; background:#fff;">
-                            <a href="https://www.youtube.com/channel/UCRG-gn5MD-v2oaclvDTegnQ"><i class="fa fa-youtube-play"></i></a>
-                          </div>
-                          <div class="text-contact" style="display: inline-block;">
-                            <div class="contact tel" style="display: inline-block;">
-                               <a style="color: #fff; font-weight: 500;"><i class="fa fa-phone"></i> 959174008</a>
-                            </div>
-                            <span class="span" style="color: #fff;">|</span>
-                            <div class="contact email" style="display: inline-block;">
-                              <a href ="" class="" style="font-size: 15px;"><i class="fa fa-envelope"></i> ventas@pazperuong.org</a>
-                            </div>
-                          </div>
-                        </ul>
-                      </div>
-                    </section>
+    </nav>
+    <!------------------------------------SECION DE PRODUCTOS------------------------------------------------------>
+    <div class="section-product">
+        <div class="container contenido">
+           <!------------------------PRIMERA PRENDA--------------------------->
+            <h1 class="text-center">BLUSA</h1>
+            <div class="producto-textil row">
+                <div class="col-md-6 text-center gris">
+                    <img class="zoom_01" src='img/small/blusa-modelo1.png' data-zoom-image="img/large/blusa-modelo1.jpg"/>
                 </div>
-            </ul>
-        </div>
-    </div>
-</nav>
-<!----------------SECION DE PRODU--------------------------->
-<div class="section-product">
-	<div class="container contenido">
-        <h1 class="text-center">BLUSA</h1>
-		<div class="producto-textil row">
-			<div class="col-md-6 text-center gris">
-				<img class="zoom_01" src='img/small/blusa-modelo1.png' data-zoom-image="img/large/blusa-modelo1.jpg"/>
-			</div>
-			<div class="col-md-6 descripcion-producto">
-				<h3><strong>BLUSA:Modelo 1</strong></h3>
-				<hr>
-				<h4>Descripción</h4>
-                <ul class="list-unstyled">
-                    <li>
-                        <ul class="list-unstyled list-inline row">
-                            <li class="col-md-3">Tipo de prenda:</li>
-                            <li class="col-md-9">Blusa con escote, Modelo empresarial</li>
-                        </ul>
-                    </li>
-                    <li>
-                        <ul class="list-unstyled list-inline row">
-                            <li class="col-md-3">Tela:</li>
-                            <li class="col-md-9">Oxford</li>
-                        </ul>
-                    </li>
-                    <li>
-                        <ul class="list-unstyled list-inline row">
-                            <li class="col-md-3">Forro:</li>
-                            <li class="col-md-9">Polar / Micropolar</li>
-                        </ul>
-                    </li> 
-                    <li>
-                        <ul class="list-unstyled list-inline row">
-                            <li class="col-md-3">Color:</li>
-                            <li class="col-md-9">
-                                <ul class="list-unstyled list-inline prenda-color">
-                                    <li class="color1"></li> <!-- ROJO -->
-                                    <li class="color2"></li> <!-- AZUL -->
-                                    <li class="color3"></li> <!-- VERDE -->
-                                    <li class="color4"></li> <!-- AMARILLO -->
-                                    <li class="color5"></li> <!-- NEGRO -->
-                                    <li class="color6"></li> <!-- CELESTE -->
+                <div class="col-md-6 descripcion-producto">
+                    <h3><strong>BLUSA:Modelo 1</strong></h3>
+                    <hr>
+                    <h4>Descripción</h4>
+                    <ul class="list-unstyled">
+                        <li>
+                            <ul class="list-unstyled list-inline row">
+                                <li class="col-md-3">Tipo de prenda:</li>
+                                <li class="col-md-9">Blusa con escote, Modelo empresarial</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="list-unstyled list-inline row">
+                                <li class="col-md-3">Tela:</li>
+                                <li class="col-md-9">Oxford</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="list-unstyled list-inline row">
+                                <li class="col-md-3">Forro:</li>
+                                <li class="col-md-9">Polar / Micropolar</li>
+                            </ul>
+                        </li> 
+                        <li>
+                            <ul class="list-unstyled list-inline row">
+                                <li class="col-md-3">Color:</li>
+                                <li class="col-md-9">
+                                    <ul class="list-unstyled list-inline prenda-color">
+                                        <li class="color1"></li> <!-- ROJO -->
+                                        <li class="color2"></li> <!-- AZUL -->
+                                        <li class="color3"></li> <!-- VERDE -->
+                                        <li class="color4"></li> <!-- AMARILLO -->
+                                        <li class="color5"></li> <!-- NEGRO -->
+                                        <li class="color6"></li> <!-- CELESTE -->
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                    <hr>
+                    <!-----------TALLA--------------->
+                    <div class="row" >
+                        <div class="col-md-3"><h4>Talla: </h4></div>
+                        <div class="col-md-9">
+                            <ul class="list-unstyled list-inline prenda-talla">
+                                <li class="talla">XL</li>
+                                <li class="talla">L</li>
+                                <li class="talla">M</li>
+                                <li class="talla">S</li>
+                                <li class="talla">XS</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <a class="btnfos btnfos-1 text-center" data-toggle="modal" data-target="#squarespaceModal"><svg><rect x="0" y="0" fill="none" width="100%" height="100%"/></svg>Haz tu consulta</a>
+                </div>
+            </div>
+            <div class="producto-textil row">
+                <div class="col-md-6 text-center gris">
+                    <img class="zoom_01" src='img/small/blusa-modelo2.png' data-zoom-image="img/large/blusa-modelo2.jpg"/>
+                </div>
+                <div class="col-md-6 descripcion-producto">
+                    <h3><strong>BLUSA: Modelo 2</strong></h3>
+                    <hr>
+                    <h4><strong>Descripción</strong></h4>
+                    <div class="">
+                        <ul class="list-unstyled">
+                            <li>
+                                <ul class="list-unstyled list-inline row">
+                                    <li class="col-md-3"><strong>Tipo de prenda:</strong></li>
+                                    <li class="col-md-9">Blusa manga larga</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="list-unstyled list-inline row">
+                                    <li class="col-md-3"><strong>Tela:</strong></li>
+                                    <li class="col-md-9"> Oxford </li>
+                                </ul>
+                            </li>
+                            <!-- <li>
+                                <ul class="list-unstyled list-inline row">
+                                    <li class="col-md-3">Forro:</li>
+                                    <li class="col-md-9">Polar / Micropolar</li>
+                                </ul>
+                            </li> -->
+                            <li>
+                                <ul class="list-unstyled list-inline row">
+                                    <li class="col-md-3"><strong>Color:</strong></li>
+                                    <li class="col-md-9">
+                                        <ul class="list-unstyled list-inline prenda-color">
+                                            <li class="color1"></li> <!-- ROJO -->
+                                            <li class="color2"></li> <!-- AZUL -->
+                                            <li class="color3"></li> <!-- VERDE -->
+                                            <li class="color4"></li> <!-- AMARILLO -->
+                                            <li class="color5"></li> <!-- NEGRO -->
+                                            <li class="color6"></li> <!-- CELESTE -->
+                                        </ul>
+                                    </li>
                                 </ul>
                             </li>
                         </ul>
-                    </li>
-                </ul>
-				<hr>
-				
-				<!-------TALLA class="row">
-					<div class="col-md-3"><h4>Talla: </h4></div>
-					<div class="col-md-9">
-						<ul class="list-unstyled list-inline prenda-talla">
-							<li class="talla">XL</li>
-							<li class="talla">L</li>
-							<li class="talla">M</li>
-							<li class="talla">S</li>
-							<li class="talla">XS</li>
-						</ul>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-3"><h4>Colores: </h4></div>
-					<div class="col-md-9">
-						<ul class="list-unstyled list-inline prenda-color">
-							<li class="color1"></li>
-							<li class="color2"></li>
-							<li class="color3"></li>
-							<li class="color4"></li>
-							<li class="color5"></li>
-						</ul>
-					</div>
-				</div> -->
-				 <a class="btnfos btnfos-1 text-center" data-toggle="modal" data-target="#squarespaceModal"><svg><rect x="0" y="0" fill="none" width="100%" height="100%"/></svg>Haz tu consulta</a>
-			</div>
-		</div>
-		<div class="producto-textil row">
-			<div class="col-md-6 text-center gris">
-				<img class="zoom_01" src='img/small/blusa-modelo2.png' data-zoom-image="img/large/blusa-modelo2.jpg"/>
-			</div>
-			<div class="col-md-6 descripcion-producto">
-				<h3><strong>BLUSA: Modelo 2</strong></h3>
-				<hr>
-				<h4><strong>Descripción</strong></h4>
-				<div class="">
-					<ul class="list-unstyled">
-						<li>
-							<ul class="list-unstyled list-inline row">
-								<li class="col-md-3"><strong>Tipo de prenda:</strong></li>
-								<li class="col-md-9">Blusa manga larga</li>
-							</ul>
-						</li>
-						<li>
-							<ul class="list-unstyled list-inline row">
-								<li class="col-md-3"><strong>Tela:</strong></li>
-								<li class="col-md-9"> Oxford </li>
-							</ul>
-						</li>
-						<!-- <li>
-							<ul class="list-unstyled list-inline row">
-								<li class="col-md-3">Forro:</li>
-								<li class="col-md-9">Polar / Micropolar</li>
-							</ul>
-						</li> -->
-						<li>
-							<ul class="list-unstyled list-inline row">
-								<li class="col-md-3"><strong>Color:</strong></li>
-								<li class="col-md-9">
-									<ul class="list-unstyled list-inline prenda-color">
-										<li class="color1"></li> <!-- ROJO -->
-										<li class="color2"></li> <!-- AZUL -->
-										<li class="color3"></li> <!-- VERDE -->
-										<li class="color4"></li> <!-- AMARILLO -->
-										<li class="color5"></li> <!-- NEGRO -->
-										<li class="color6"></li> <!-- CELESTE -->
-									</ul>
-								</li>
-							</ul>
-						</li>
-					</ul>
-				</div>		
-				
-				<hr>
-
-				 <a class="btnfos btnfos-1 text-center" data-toggle="modal" data-target="#squarespaceModal"><svg><rect x="0" y="0" fill="none" width="100%" height="100%"/></svg>Haz tu consulta</a>
-				<!-- <div class="center"><button data-toggle="modal" data-target="#squarespaceModal" class="btn btn-primary center-block">Haz tu consulta aqui</button></div> -->
-			</div>
-		</div>
-		<div class="producto-textil row">
-			<div class="col-md-6 text-center gris">
-				<img class="zoom_01" src='img/small/blusa-modelo3.png' data-zoom-image="img/large/blusa-modelo3.jpg"/>
-			</div>
-			<div class="col-md-6 descripcion-producto">
-				<h3><strong>BLUSA: Modelo 3</strong></h3>
-				<hr>
-				<h4><strong>Descripción</strong></h4>
-				<div class="">
-					<ul class="list-unstyled">
-						<li>
-							<ul class="list-unstyled list-inline row">
-								<li class="col-md-3"><strong>Tipo de prenda:</strong></li>
-								<li class="col-md-9">Blusa de manga 3/4</li>
-							</ul>
-						</li>
-						<li>
-							<ul class="list-unstyled list-inline row">
-								<li class="col-md-3"><strong>Tela:</strong></li>
-								<li class="col-md-9">Popelina color entero</li>
-							</ul>
-						</li>
-						<!-- <li>
-							<ul class="list-unstyled list-inline row">
-								<li class="col-md-3"><strong>Forro:</strong></li>
-								<li class="col-md-9">Polar / Micropolar</li>
-							</ul>
-						</li> -->
-						<li>
-							<ul class="list-unstyled list-inline row">
-								<li class="col-md-3"><strong>Color:</strong></li>
-								<li class="col-md-9">
-									<ul class="list-unstyled list-inline prenda-color">
-										<!-- <li class="color1"></li> --> <!-- ROJO -->
-										<li class="color2"></li> <!-- AZUL -->
-										<!-- <li class="color3"></li> --> <!-- VERDE -->
-										<li class="color4"></li> <!-- AMARILLO -->
-										<!-- <li class="color5"></li> --> <!-- NEGRO -->
-										<!-- <li class="color6"></li> --> <!-- CELESTE -->
-									</ul>
-								</li>
-							</ul>
-						</li>
-					</ul>
-				</div>		
-				
-				<hr>
-				 <a class="btnfos btnfos-1 text-center" data-toggle="modal" data-target="#squarespaceModal"><svg><rect x="0" y="0" fill="none" width="100%" height="100%"/></svg>Haz tu consulta</a>
-				<!-- <div class="center"><button data-toggle="modal" data-target="#squarespaceModal" class="btn btn-primary center-block">Haz tu consulta aqui</button></div> -->
-			</div>
-		</div>
-	</div>
-</div>
-<!-----------section-contacto--------- -->
-<div class="fondo-formulario">
-    <div class="container formulario">
-        <h2 style="color: #fff;">Solicita tu pedido</h2>
-        <div class="row">
-            <div id="contact-area">
-                <form  method="POST" action="datos.php">
-                    <div class="col-md-6">
-                        <input type="text" name="nombre" id="Nombres" placeholder="Nombres y Apellidos"/>
-                        <input type="text" name="correo" id="Correo" placeholder="Correo Electrónico"/>
-                        <input type="text" name="telefono" id="Telefono" placeholder="Teléfono"/>
-                        <input type="text" name="asunto" id="Asunto" placeholder="Asunto"/>
                     </div>
-                    <div class="col-md-6">
-                        <label>Elija su prenda:</label>
-                        <select id="color" name="prenda">
-                            <option selected="selected" value="">Elija opción</option>
-                            <option value="Prenda 1">Prenda 1</option>
-                            <option value="Prenda 2">Prenda 2</option>
-                            <option value="Prenda 3">Prenda 3</option>
-                        </select>
-                        <textarea name="mensaje" rows="5" cols="20" id="Message" placeholder="Message"></textarea>
-                        <input type="submit" name="submit" value="Submit" class="submit-button"/>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-    <div class="desktop-faq-container container">
-        <div class="row">
-            <input type="radio" name="tabs" checked="checked" />
-            <input id="tab-1" type="radio" name="tabs" />
-            <input id="tab-2" type="radio" name="tabs" />
-            <input id="tab-3" type="radio" name="tabs" />
-            <input id="tab-4" type="radio" name="tabs" />
-            <input id="tab-5" type="radio" name="tabs" />
-            <input id="tab-6" type="radio" name="tabs" />
-        <div class="">
-            <div class="tabs">
-                <label class="col-md-2" for="tab-1"><div class="element"><img src="img/pregunta1.png" alt="" /><h3>Pedidos y General</h3></div></label>
-                <label class="col-md-2" for="tab-2"><div class="element"><img src="img/pregunta2.png" alt="" /><h3>Pagos</h3></div></label>
-                <label class="col-md-2" for="tab-3"><div class="element"><img src="img/pregunta3.png" alt="" /><h3>My Pompeii</h3></div></label>
-                <label class="col-md-2" for="tab-4"><div class="element"><img src="img/pregunta4.png" alt="" /><h3>Envios y Entregas</h3></div></label>
-                <label class="col-md-2" for="tab-5"><div class="element"><img src="img/pregunta5.png" alt="" /><h3>Cambios y Devoluciones</h3></div></label>
-                <label class="col-md-2" for="tab-6"><div class="element"><img src="img/pregunta6.png" alt="" /><h3>Cambios y Devoluciones</h3></div></label>
-            </div>
-        </div>
-        <div class="content">
-            <div class="col-md-12">
-            <div class="tab">
-                <details class="question">
-                    <summary>¿Cómo uso un cupón descuento?</summary>
-                    <p>Una vez hayas introducido en el carrito los productos que quieres comprar y hayas llegado al Checkout puedes introducir tu código descuento desplegando la pestaña que dice “Tengo un cupón descuento” justo antes del botón COMPRAR</p>
-                </details>
-                <details class="question">
-                    <summary>Puedo cancelar un pedido una vez hecha la compra?</summary>
-                    <p>Por supuesto! Solo tienes que ponerte en contacto con nuestro equipo de Happiness cuanto antes a través del formulario de contacto o llamando al 917 569 102 de 10:00 a 19:00 de lunes a viernes. Si el paquete no ha salido de nuestro almacén lo retenemos para que ya no se envía. Si ya hubiese salido tenemos organizaremos la recogida en tu dircción para volver a traerlo de vuelta. En cualquier caso el dinero te lo devolvemos en cuanto tengamos constancia de tu mensaje y no hay ningún tipo de coste adicional!</p>
-                </details>
-                <details class="question">
-                    <summary>Puedo indicar una dirección diferente a la de mi cuenta My Pompeii para la entrega?</summary>
-                    <p>Puedes tener más de una dirección de envío. En My Pompeii verás tu libreta de direcciones, puedes añadir tantas como quieras y luego elegir a cual enviar cada pedido.</p>
-                </details>
-                <details class="question">
-                    <summary>Puedo modificar un pedido una vez hecha la compra?</summary>
-                    <p>Claro que sí, ponte en contacto con nuestro equipo de Happiness cuanto antes a través de happiness@pompeiibrand.com o llamando al 917 569 102 de 10:00 a 19:00 de lunes a viernes. Si el paquete no ha salido de nuestro almacén ejecutamos el cambio en el momento. Si ya hubiese salido tenemos que esperar a que recibas el paquete y después gestionamos el cambio/devolución. No te preocupes, lo hacemos encantados sin ningún coste adicional!</p>
-                </details>
-                <details class="question">
-                    <summary>¿Va a estar este producto rebajado pronto?</summary>
-                    <p>Desafortunadamente desconocemos cuando un producto va a ser rebajado hasta el momento en el que esta rebaja se produce. Síguenos en nuestras RRSS para enterarte.</p>
-                </details>
-                <details class="question">
-                    <summary>Cómo puedo recibir asistencia si la necesito?</summary>
-                    <p>Puedes llamar a nuestro equipo de Happiness de lunes a viernes de 10:00 a 19:00, al 917 569 102 o mandarnos un correo a la dirección de correo electrónico happiness@pompeiibrand.com. Estamos encantados de poder solucionar tus problemas. Respondemos a los correos electrónicos por orden de recepción, y te responderemos lo más rápido posible.</p>
-                </details>
-                <details class="question">
-                    <summary>Cómo realizo una compra a través de vuestra web?</summary>
-                    <p>Únicamente debes seguir los siguientes pasos: 1- Selecciona los productos que desees e introdúcelos en el carro. Puedes seleccionar tantos productos como desees, así como el número de unidades de cada uno de ellos. 2- Si tienes cuenta My Pompeii, identifícate para realizar tu pedido. Si eres un nuevo usuario, puedes comprar como invitado o crearte una cuenta My Pompeii para poder acceder después a tu área personal de Pompeii y gestionar desde ahí tus pedidos. 3- Revisa los datos de tu compra. Si estas conforme, acepta los términos y condiciones y realiza tu pago a través de PayPal o de nuestro TPV virtual.</p>
-                </details>
-                <details class="question">
-                    <summary>Tenéis tienda física?</summary>
-                    <p>Por ahora no! Para comprar cualquiera de nuestros productos deberás hacerlo a través de nuestra página web: www.pompeiibrand.com. No te preocupes, es muy fácil y efectivo, si necesitas ayuda puedes llamar a nuestro equipo de Happiness de lunes a viernes de 10:00 a 19:00, 917 569 102 o mandarles un correo a happiness@pompeiibrand.com</p>
-                </details>
-            </div>
-            <div class="tab">
-                <details class="question">
-                    <summary>Qué formas de pago aceptais?</summary>
-                    <p>Actualmente aceptamos Visa, MasterCard, Maestro y Paypal.</p>
-                </details>
-                <details class="question">
-                    <summary>Es seguro utilizar mi tarjeta de crédito para realizar un pago en vuestra página web?</summary>
-                    <p>Si! Entendemos que la seguridad de tu información personal es extremadamente importante para ti. Por ello, utilizamos un certificado SSL de seguridad para proteger tus datos personales y la información de tu tarjeta de crédito de un posible uso fraudulento.</p>
-                </details>
-            </div>
-            <div class="tab">
-                <details class="question">
-                    <summary>Como puedo cambiar los datos de mi cuenta My Pompeii?</summary>
-                    <p>Entrando en My Pompeii a través del menú de hamburguesa del móvil o a través del icono de usuario en la esquina superior de tu pantalla del ordenador. Dentro de My Pompeii podrás ir a la sección que quieras modificar: direcciones, newsletter etc</p>
-                </details>
-                <details class="question">
-                    <summary>Necesito crearme una cuenta My Pompeii para comprar en Pompeii?</summary>
-                    <p>No, siempre podrás comprar como invitado sin necesidad de introducir una contraseña. Dicho esto, te recomendamos que te crees una cuenta My Pompeii para poder en tu área personal y ver el estado de los pedidos.</p>
-                </details>
-                <details class="question">
-                    <summary>¿Recibiré algún tipo de spam por crearme un cuenta My Pompeii?</summary>
-                    <p>No nos gusta que nos molesten, como a ti. Ni Spam ni abuso del mailing.</p>
-                </details>
-            </div>
-            <div class="tab">
-                <details class="question">
-                    <summary>¿Contactará conmigo la compañía de envíos antes de hacer la entrega?</summary>
-                    <p>Recibirás 3 emails desde que hayas completado el pedido: Un email de Pompeii en cuanto la mercancía salga de nuestro almacén. Un email de la compañía de envíos en cuanto la mercancía haya llegado a su almacén. En este email se especificará el día de entrega aproximado. Un email de la compañia de envios el día de la entrega especificando el rango horario.</p>
-                </details>
-                <details class="question">
-                    <summary>¿Cuánto tardaré en recibir mi producto?</summary>
-                    <p>Depende de donde quieras recibir tu producto. El tiempo medio de entrega son entre 3 y 4 días laborables desde que recibimos el pedido. Si tienes cualquier duda adicional puedes ponerte en contacto con nuestro equipo de Happiness a través del formulario de contacto o llamando ala 917 569 102 de 10:00 a 19:00 de lunes a viernes</p>
-                </details>
-                <details class="question">
-                    <summary>¿Qué pasa si cuando llega el transportista no estoy en casa?</summary>
-                    <p>Nuestra compañía de envíos tiene orden de hacer todo lo posible por entregarte tu paquete (2 intentos de entrega, hablar con los vecinos, llamarte por teléfono etc). Si por lo que sea no consiguen entregártelo ponte en contacto con nuestro equipo de Happiness a través del formulario de contacto o llamando al 917 569 102 de 10:00 a 19:00 de lunes a viernes y nosotros te lo solucionamos</p>
-                </details>
-            </div>
-            <div class="tab">
-                <details class="question">
-                    <summary>¿Recibiré algún tipo de spam por crearme un cuenta My Pompeii?</summary>
-                    <p>¡Cambiar un producto es muy fácil! Solo tienes tienes que rellenar el formulario con todos los datos (Nº de pedido, cambio que deseas…) y nosotros nos encargamos de todo, sin ningún coste adicional, lo hacemos gratis. Todos los cambios se podrán solicitar en el plazo de 365 días y un repartidor te entregará tu nuevo pedido y te recogerá en el momento el que deseas devolver :&#41;</p>
-                </details>
-                <details class="question">
-                    <summary>Quiero devolver un producto. ¿Cómo lo hago?</summary>
-                    <p>Las devoluciones se gestionan igual que los cambios, ¡Muy fácil! Solo tienes que enviarnos un formulario con la información que necesitamos (nombre del cliente, número de pedido y producto que quieras devolver) y nosotros nos encargamos de todo, sin ningún coste adicional, lo hacemos gratis. Todas las devoluciones se podrán solicitar en el plazo de 365 días!</p>
-                </details>
-                <details class="question">
-                    <summary>Quiero devolver/cambiar un regalo que me han hecho</summary>
-                    <p>No hay problema, se gestiona igual que una devolución/cambio normal, deberás decirnos el nombre de la persona que hizo la compra y el número de pedido.</p>
-                </details>
-                <details class="question">
-                    <summary>¿Cuánto tiempo tardo en recibir mi reembolso?</summary>
-                    <p>Te reembolsaremos el dinero en cuanto lo solicites, ante todo queremos que estés contento y satisfecho. Después gestionaremos la devolución para que recojan el paquete donde nos digas y lo traigan de vuelta a nuestro almacén.</p>
-                </details>
-            </div>
-            <div class="tab">
-                <details class="question">
-                    <summary>¿Cómo conozco mi talla?</summary>
-                    <p>En cada página de producto puedes ver una guía de tallas para comprobar tu talla. Por lo general todos los productos tallan “normal” y si estás entre dos tallas nosotros recomendamos que cogas la talla más grande. Si te equivocas no te preocupes, tanto los cambios como las devoluciones son gratuitos y muy fáciles de gestionar.</p>
-                </details>
-                <details class="question">
-                    <summary>Cómo puedo enterarme de los próximos lanzamientos?</summary>
-                    <p>Lo más fácil es que nos sigas en nuestras RRSS, @pompeiibrand en Instagram y Facebook y pompeii.brand en Snapchat.</p>
-                </details>
-                <details class="question">
-                    <summary>Reponéis los productos agotados?</summary>
-                    <p>Depende del producto. Para saber si un producto volverá a estar disponible puedes ponerte en contacto con nuestro equipo de Happiness a través de happiness@pompeiibrand.com o llamando ala 917 569 102 de 10:00 a 19:00 de lunes a viernes</p>
-                </details>
-                <details class="question">
-                    <summary>¿Cómo cuido mi producto?</summary>
-                    <p>Al igual que con las tallas, en cada página de producto se indican los procedimientos para que puedas cuidar y mantener cualquiera de nuestros productos.</p>
-                </details>
-                <details class="question">
-                    <summary>¿Puedo preguntar más cosas sobre algún producto?</summary>
-                    <p>En cada página de producto también se indica la composición del mismo. Para cualquier otra duda ponte contacto con nuestro equipo de Happiness a través de happiness@pompeiibrand.com o llamando ala 917 569 102 de 10:00 a 19:00 de lunes a viernes</p>
-                </details>
-            </div>
-            </div>
-        </div>
-        </div>
-    </div>
-</div>
-<div class="footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3 col-sm-3 col-xs-6">
-                <h4 class="">CONTACTO</h4>
-                <ul class="list-unstyled ">
-                    <li><i class="fa fa-phone" aria-hidden="true"></i> 959174008</li>
-                    <li><a href=""><i class="fa fa-envelope" aria-hidden="true"></i> ventas@pazperuong.org</a></li>
-                    <li><a href="https://www.facebook.com/confeccionesPazPeru/"><i class="fa fa-facebook-square" aria-hidden="true"></i> Confecciones Paz Perú</a></li>
-                    <li><a href="https://www.youtube.com/channel/UCRG-gn5MD-v2oaclvDTegnQ"><i class="fa fa-youtube-play" aria-hidden="true"></i> Confecciones Paz Perú</a></li>
-                    <li><a><i class="fa fa-map-marker" aria-hidden="true"></i>  Av. Salaverry S/N Urb. Lara</a></li>
-                </ul>
-            </div>
-            <div class="col-md-3 col-sm-3 col-xs-6">
-                <h4>NUESTRAS LÍNEAS</h4>
-                <ul class="list-unstyled">
-                    <li><a href=""> Linea Corporativa</a></li>
-                    <li><a href="">Linea Industrial</a></li>
-                    <li><a href="">Linea Deportiva</a></li>
-                    <li><a href="">Linea Escolar</a></li>
-                    <li><a href="">Linea Publicitaria</a></li>
-                    <li><a href="">Otros </a></li>
-                </ul>
-            </div>
-            <div class="col-md-6 col-sm-6 col-xs-12 clientes">
-                <div class="row">
-                    <h4 class="text-center">NUESTROS CLIENTES</h4>
-                    <div class="col-md-6 col-sm-6 col-xs-6">
-                        <ul class="list-unstyled clientes1">
-                            <li><i class="fa fa-angle-right" aria-hidden="true"></i> Inversiones Nacionales de Turismo</li>
-                            <li><i class="fa fa-angle-right" aria-hidden="true"></i> Tisur (Terminal Internacional del Sur)</li>
-                            <li><i class="fa fa-angle-right" aria-hidden="true"></i> Grupo Gloria</li>
-                            <li><i class="fa fa-angle-right" aria-hidden="true"></i> Compañía Minera Ares</li>
-                            <li><i class="fa fa-angle-right" aria-hidden="true"></i> Claro</li>
-                            <li><i class="fa fa-angle-right" aria-hidden="true"></i> Colegio de la Salle</li>
-                            <li><i class="fa fa-angle-right" aria-hidden="true"></i> Rico Pollo</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-6 col-sm-6 col-xs-6 col2-xs">
-                        <ul class="list-unstyled clientes1">
-                            <li><i class="fa fa-angle-right" aria-hidden="true"></i> Egasa</li>
-                            <li><i class="fa fa-angle-right" aria-hidden="true"></i> Programa Nacional CUNAMAS</li>
-                            <li><i class="fa fa-angle-right" aria-hidden="true"></i> Presto</li>
-                            <li><i class="fa fa-angle-right" aria-hidden="true"></i> Benefiencia Pública de Arequipa</li>
-                            <li><i class="fa fa-angle-right" aria-hidden="true"></i> Asociación Casa Chapi</li>
-                            <li><i class="fa fa-angle-right" aria-hidden="true"></i> Futura Schools</li>
-                        </ul>
-                    </div>
+                    <hr>
+                    <a class="btnfos btnfos-1 text-center" data-toggle="modal" data-target="#squarespaceModal"><svg><rect x="0" y="0" fill="none" width="100%" height="100%"/></svg>Haz tu consulta</a>
                 </div>
             </div>
-        </div>   
+            <div class="producto-textil row">
+                <div class="col-md-6 text-center gris">
+                    <img class="zoom_01" src='img/small/blusa-modelo3.png' data-zoom-image="img/large/blusa-modelo3.jpg"/>
+                </div>
+                <div class="col-md-6 descripcion-producto">
+                    <h3><strong>BLUSA: Modelo 3</strong></h3>
+                    <hr>
+                    <h4><strong>Descripción</strong></h4>
+                    <div class="">
+                        <ul class="list-unstyled">
+                            <li>
+                                <ul class="list-unstyled list-inline row">
+                                    <li class="col-md-3"><strong>Tipo de prenda:</strong></li>
+                                    <li class="col-md-9">Blusa de manga 3/4</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="list-unstyled list-inline row">
+                                    <li class="col-md-3"><strong>Tela:</strong></li>
+                                    <li class="col-md-9">Popelina color entero</li>
+                                </ul>
+                            </li>
+                            <!-- <li>
+                                <ul class="list-unstyled list-inline row">
+                                    <li class="col-md-3"><strong>Forro:</strong></li>
+                                    <li class="col-md-9">Polar / Micropolar</li>
+                                </ul>
+                            </li> -->
+                            <li>
+                                <ul class="list-unstyled list-inline row">
+                                    <li class="col-md-3"><strong>Color:</strong></li>
+                                    <li class="col-md-9">
+                                        <ul class="list-unstyled list-inline prenda-color">
+                                            <li class="color1"></li> <!-- ROJO -->
+                                            <li class="color2"></li> <!-- AZUL -->
+                                            <li class="color3"></li> <!-- VERDE -->
+                                            <li class="color4"></li> <!-- AMARILLO -->
+                                            <li class="color5"></li> <!-- NEGRO -->
+                                            <li class="color6"></li> <!-- CELESTE -->
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>		
+                    <hr>
+                     <a class="btnfos btnfos-1 text-center" data-toggle="modal" data-target="#squarespaceModal"><svg><rect x="0" y="0" fill="none" width="100%" height="100%"/></svg>Haz tu consulta</a>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="scrollup"><i class="fa fa-angle-double-up"></i></div>
-</div>
-<div class="footer2">
+    <!--------------------------------------FORMULARIO------------------------------------------------------------>
+    <div class="fondo-formulario">
+        <div class="container formulario">
+            <h2 style="color: #fff;">Solicita tu pedido</h2>
+            <div class="row">
+                <div id="contact-area">
+                    <form  method="POST" action="datos.php">
+                        <div class="col-md-6">
+                            <input type="text" name="nombre" id="Nombres" placeholder="Nombres y Apellidos"/>
+                            <input type="text" name="correo" id="Correo" placeholder="Correo Electrónico"/>
+                            <input type="text" name="telefono" id="Telefono" placeholder="Teléfono"/>
+                            <input type="text" name="asunto" id="Asunto" placeholder="Asunto"/>
+                        </div>
+                        <div class="col-md-6">
+                            <label>Elija su prenda:</label>
+                            <select id="color" name="prenda">
+                                <option selected="selected" value="">Elija opción</option>
+                                <option value="Prenda 1">Prenda 1</option>
+                                <option value="Prenda 2">Prenda 2</option>
+                                <option value="Prenda 3">Prenda 3</option>
+                            </select>
+                            <textarea name="mensaje" rows="5" cols="20" id="Message" placeholder="Message"></textarea>
+                            <input type="submit" name="submit" value="Submit" class="submit-button"/>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="desktop-faq-container container">
+            <div class="row">
+                <input type="radio" name="tabs" checked="checked" />
+                <input id="tab-1" type="radio" name="tabs" />
+                <input id="tab-2" type="radio" name="tabs" />
+                <input id="tab-3" type="radio" name="tabs" />
+                <input id="tab-4" type="radio" name="tabs" />
+                <input id="tab-5" type="radio" name="tabs" />
+                <input id="tab-6" type="radio" name="tabs" />
+            <div class="">
+                <div class="tabs">
+                    <label class="col-md-2" for="tab-1"><div class="element"><img src="img/pregunta1.png" alt="" /><h3>Pedidos y General</h3></div></label>
+                    <label class="col-md-2" for="tab-2"><div class="element"><img src="img/pregunta2.png" alt="" /><h3>Pagos</h3></div></label>
+                    <label class="col-md-2" for="tab-3"><div class="element"><img src="img/pregunta3.png" alt="" /><h3>My Pompeii</h3></div></label>
+                    <label class="col-md-2" for="tab-4"><div class="element"><img src="img/pregunta4.png" alt="" /><h3>Envios y Entregas</h3></div></label>
+                    <label class="col-md-2" for="tab-5"><div class="element"><img src="img/pregunta5.png" alt="" /><h3>Cambios y Devoluciones</h3></div></label>
+                    <label class="col-md-2" for="tab-6"><div class="element"><img src="img/pregunta6.png" alt="" /><h3>Cambios y Devoluciones</h3></div></label>
+                </div>
+            </div>
+            <div class="content">
+                <div class="col-md-12">
+                <div class="tab">
+                    <details class="question">
+                        <summary>¿Cómo uso un cupón descuento?</summary>
+                        <p>Una vez hayas introducido en el carrito los productos que quieres comprar y hayas llegado al Checkout puedes introducir tu código descuento desplegando la pestaña que dice “Tengo un cupón descuento” justo antes del botón COMPRAR</p>
+                    </details>
+                    <details class="question">
+                        <summary>Puedo cancelar un pedido una vez hecha la compra?</summary>
+                        <p>Por supuesto! Solo tienes que ponerte en contacto con nuestro equipo de Happiness cuanto antes a través del formulario de contacto o llamando al 917 569 102 de 10:00 a 19:00 de lunes a viernes. Si el paquete no ha salido de nuestro almacén lo retenemos para que ya no se envía. Si ya hubiese salido tenemos organizaremos la recogida en tu dircción para volver a traerlo de vuelta. En cualquier caso el dinero te lo devolvemos en cuanto tengamos constancia de tu mensaje y no hay ningún tipo de coste adicional!</p>
+                    </details>
+                    <details class="question">
+                        <summary>Puedo indicar una dirección diferente a la de mi cuenta My Pompeii para la entrega?</summary>
+                        <p>Puedes tener más de una dirección de envío. En My Pompeii verás tu libreta de direcciones, puedes añadir tantas como quieras y luego elegir a cual enviar cada pedido.</p>
+                    </details>
+                    <details class="question">
+                        <summary>Puedo modificar un pedido una vez hecha la compra?</summary>
+                        <p>Claro que sí, ponte en contacto con nuestro equipo de Happiness cuanto antes a través de happiness@pompeiibrand.com o llamando al 917 569 102 de 10:00 a 19:00 de lunes a viernes. Si el paquete no ha salido de nuestro almacén ejecutamos el cambio en el momento. Si ya hubiese salido tenemos que esperar a que recibas el paquete y después gestionamos el cambio/devolución. No te preocupes, lo hacemos encantados sin ningún coste adicional!</p>
+                    </details>
+                    <details class="question">
+                        <summary>¿Va a estar este producto rebajado pronto?</summary>
+                        <p>Desafortunadamente desconocemos cuando un producto va a ser rebajado hasta el momento en el que esta rebaja se produce. Síguenos en nuestras RRSS para enterarte.</p>
+                    </details>
+                    <details class="question">
+                        <summary>Cómo puedo recibir asistencia si la necesito?</summary>
+                        <p>Puedes llamar a nuestro equipo de Happiness de lunes a viernes de 10:00 a 19:00, al 917 569 102 o mandarnos un correo a la dirección de correo electrónico happiness@pompeiibrand.com. Estamos encantados de poder solucionar tus problemas. Respondemos a los correos electrónicos por orden de recepción, y te responderemos lo más rápido posible.</p>
+                    </details>
+                    <details class="question">
+                        <summary>Cómo realizo una compra a través de vuestra web?</summary>
+                        <p>Únicamente debes seguir los siguientes pasos: 1- Selecciona los productos que desees e introdúcelos en el carro. Puedes seleccionar tantos productos como desees, así como el número de unidades de cada uno de ellos. 2- Si tienes cuenta My Pompeii, identifícate para realizar tu pedido. Si eres un nuevo usuario, puedes comprar como invitado o crearte una cuenta My Pompeii para poder acceder después a tu área personal de Pompeii y gestionar desde ahí tus pedidos. 3- Revisa los datos de tu compra. Si estas conforme, acepta los términos y condiciones y realiza tu pago a través de PayPal o de nuestro TPV virtual.</p>
+                    </details>
+                    <details class="question">
+                        <summary>Tenéis tienda física?</summary>
+                        <p>Por ahora no! Para comprar cualquiera de nuestros productos deberás hacerlo a través de nuestra página web: www.pompeiibrand.com. No te preocupes, es muy fácil y efectivo, si necesitas ayuda puedes llamar a nuestro equipo de Happiness de lunes a viernes de 10:00 a 19:00, 917 569 102 o mandarles un correo a happiness@pompeiibrand.com</p>
+                    </details>
+                </div>
+                <div class="tab">
+                    <details class="question">
+                        <summary>Qué formas de pago aceptais?</summary>
+                        <p>Actualmente aceptamos Visa, MasterCard, Maestro y Paypal.</p>
+                    </details>
+                    <details class="question">
+                        <summary>Es seguro utilizar mi tarjeta de crédito para realizar un pago en vuestra página web?</summary>
+                        <p>Si! Entendemos que la seguridad de tu información personal es extremadamente importante para ti. Por ello, utilizamos un certificado SSL de seguridad para proteger tus datos personales y la información de tu tarjeta de crédito de un posible uso fraudulento.</p>
+                    </details>
+                </div>
+                <div class="tab">
+                    <details class="question">
+                        <summary>Como puedo cambiar los datos de mi cuenta My Pompeii?</summary>
+                        <p>Entrando en My Pompeii a través del menú de hamburguesa del móvil o a través del icono de usuario en la esquina superior de tu pantalla del ordenador. Dentro de My Pompeii podrás ir a la sección que quieras modificar: direcciones, newsletter etc</p>
+                    </details>
+                    <details class="question">
+                        <summary>Necesito crearme una cuenta My Pompeii para comprar en Pompeii?</summary>
+                        <p>No, siempre podrás comprar como invitado sin necesidad de introducir una contraseña. Dicho esto, te recomendamos que te crees una cuenta My Pompeii para poder en tu área personal y ver el estado de los pedidos.</p>
+                    </details>
+                    <details class="question">
+                        <summary>¿Recibiré algún tipo de spam por crearme un cuenta My Pompeii?</summary>
+                        <p>No nos gusta que nos molesten, como a ti. Ni Spam ni abuso del mailing.</p>
+                    </details>
+                </div>
+                <div class="tab">
+                    <details class="question">
+                        <summary>¿Contactará conmigo la compañía de envíos antes de hacer la entrega?</summary>
+                        <p>Recibirás 3 emails desde que hayas completado el pedido: Un email de Pompeii en cuanto la mercancía salga de nuestro almacén. Un email de la compañía de envíos en cuanto la mercancía haya llegado a su almacén. En este email se especificará el día de entrega aproximado. Un email de la compañia de envios el día de la entrega especificando el rango horario.</p>
+                    </details>
+                    <details class="question">
+                        <summary>¿Cuánto tardaré en recibir mi producto?</summary>
+                        <p>Depende de donde quieras recibir tu producto. El tiempo medio de entrega son entre 3 y 4 días laborables desde que recibimos el pedido. Si tienes cualquier duda adicional puedes ponerte en contacto con nuestro equipo de Happiness a través del formulario de contacto o llamando ala 917 569 102 de 10:00 a 19:00 de lunes a viernes</p>
+                    </details>
+                    <details class="question">
+                        <summary>¿Qué pasa si cuando llega el transportista no estoy en casa?</summary>
+                        <p>Nuestra compañía de envíos tiene orden de hacer todo lo posible por entregarte tu paquete (2 intentos de entrega, hablar con los vecinos, llamarte por teléfono etc). Si por lo que sea no consiguen entregártelo ponte en contacto con nuestro equipo de Happiness a través del formulario de contacto o llamando al 917 569 102 de 10:00 a 19:00 de lunes a viernes y nosotros te lo solucionamos</p>
+                    </details>
+                </div>
+                <div class="tab">
+                    <details class="question">
+                        <summary>¿Recibiré algún tipo de spam por crearme un cuenta My Pompeii?</summary>
+                        <p>¡Cambiar un producto es muy fácil! Solo tienes tienes que rellenar el formulario con todos los datos (Nº de pedido, cambio que deseas…) y nosotros nos encargamos de todo, sin ningún coste adicional, lo hacemos gratis. Todos los cambios se podrán solicitar en el plazo de 365 días y un repartidor te entregará tu nuevo pedido y te recogerá en el momento el que deseas devolver :&#41;</p>
+                    </details>
+                    <details class="question">
+                        <summary>Quiero devolver un producto. ¿Cómo lo hago?</summary>
+                        <p>Las devoluciones se gestionan igual que los cambios, ¡Muy fácil! Solo tienes que enviarnos un formulario con la información que necesitamos (nombre del cliente, número de pedido y producto que quieras devolver) y nosotros nos encargamos de todo, sin ningún coste adicional, lo hacemos gratis. Todas las devoluciones se podrán solicitar en el plazo de 365 días!</p>
+                    </details>
+                    <details class="question">
+                        <summary>Quiero devolver/cambiar un regalo que me han hecho</summary>
+                        <p>No hay problema, se gestiona igual que una devolución/cambio normal, deberás decirnos el nombre de la persona que hizo la compra y el número de pedido.</p>
+                    </details>
+                    <details class="question">
+                        <summary>¿Cuánto tiempo tardo en recibir mi reembolso?</summary>
+                        <p>Te reembolsaremos el dinero en cuanto lo solicites, ante todo queremos que estés contento y satisfecho. Después gestionaremos la devolución para que recojan el paquete donde nos digas y lo traigan de vuelta a nuestro almacén.</p>
+                    </details>
+                </div>
+                <div class="tab">
+                    <details class="question">
+                        <summary>¿Cómo conozco mi talla?</summary>
+                        <p>En cada página de producto puedes ver una guía de tallas para comprobar tu talla. Por lo general todos los productos tallan “normal” y si estás entre dos tallas nosotros recomendamos que cogas la talla más grande. Si te equivocas no te preocupes, tanto los cambios como las devoluciones son gratuitos y muy fáciles de gestionar.</p>
+                    </details>
+                    <details class="question">
+                        <summary>Cómo puedo enterarme de los próximos lanzamientos?</summary>
+                        <p>Lo más fácil es que nos sigas en nuestras RRSS, @pompeiibrand en Instagram y Facebook y pompeii.brand en Snapchat.</p>
+                    </details>
+                    <details class="question">
+                        <summary>Reponéis los productos agotados?</summary>
+                        <p>Depende del producto. Para saber si un producto volverá a estar disponible puedes ponerte en contacto con nuestro equipo de Happiness a través de happiness@pompeiibrand.com o llamando ala 917 569 102 de 10:00 a 19:00 de lunes a viernes</p>
+                    </details>
+                    <details class="question">
+                        <summary>¿Cómo cuido mi producto?</summary>
+                        <p>Al igual que con las tallas, en cada página de producto se indican los procedimientos para que puedas cuidar y mantener cualquiera de nuestros productos.</p>
+                    </details>
+                    <details class="question">
+                        <summary>¿Puedo preguntar más cosas sobre algún producto?</summary>
+                        <p>En cada página de producto también se indica la composición del mismo. Para cualquier otra duda ponte contacto con nuestro equipo de Happiness a través de happiness@pompeiibrand.com o llamando ala 917 569 102 de 10:00 a 19:00 de lunes a viernes</p>
+                    </details>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------------------------CONTACTOS----------------------------------------------------------->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-3 col-xs-6">
+                    <h4 class="">CONTACTO</h4>
+                    <ul class="list-unstyled ">
+                        <li><i class="fa fa-phone" aria-hidden="true"></i> 959174008</li>
+                        <li><a href=""><i class="fa fa-envelope" aria-hidden="true"></i> ventas@pazperuong.org</a></li>
+                        <li><a href="https://www.facebook.com/confeccionesPazPeru/"><i class="fa fa-facebook-square" aria-hidden="true"></i> Confecciones Paz Perú</a></li>
+                        <li><a href="https://www.youtube.com/channel/UCRG-gn5MD-v2oaclvDTegnQ"><i class="fa fa-youtube-play" aria-hidden="true"></i> Confecciones Paz Perú</a></li>
+                        <li><a><i class="fa fa-map-marker" aria-hidden="true"></i>  Av. Salaverry S/N Urb. Lara</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-6">
+                    <h4>NUESTRAS LÍNEAS</h4>
+                    <ul class="list-unstyled">
+                        <li><a href=""> Linea Corporativa</a></li>
+                        <li><a href="">Linea Industrial</a></li>
+                        <li><a href="">Linea Deportiva</a></li>
+                        <li><a href="">Linea Escolar</a></li>
+                        <li><a href="">Linea Publicitaria</a></li>
+                        <li><a href="">Otros </a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12 clientes">
+                    <div class="row">
+                        <h4 class="text-center">NUESTROS CLIENTES</h4>
+                        <div class="col-md-6 col-sm-6 col-xs-6">
+                            <ul class="list-unstyled clientes1">
+                                <li><i class="fa fa-angle-right" aria-hidden="true"></i> Inversiones Nacionales de Turismo</li>
+                                <li><i class="fa fa-angle-right" aria-hidden="true"></i> Tisur (Terminal Internacional del Sur)</li>
+                                <li><i class="fa fa-angle-right" aria-hidden="true"></i> Grupo Gloria</li>
+                                <li><i class="fa fa-angle-right" aria-hidden="true"></i> Compañía Minera Ares</li>
+                                <li><i class="fa fa-angle-right" aria-hidden="true"></i> Claro</li>
+                                <li><i class="fa fa-angle-right" aria-hidden="true"></i> Colegio de la Salle</li>
+                                <li><i class="fa fa-angle-right" aria-hidden="true"></i> Rico Pollo</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-6 col2-xs">
+                            <ul class="list-unstyled clientes1">
+                                <li><i class="fa fa-angle-right" aria-hidden="true"></i> Egasa</li>
+                                <li><i class="fa fa-angle-right" aria-hidden="true"></i> Programa Nacional CUNAMAS</li>
+                                <li><i class="fa fa-angle-right" aria-hidden="true"></i> Presto</li>
+                                <li><i class="fa fa-angle-right" aria-hidden="true"></i> Benefiencia Pública de Arequipa</li>
+                                <li><i class="fa fa-angle-right" aria-hidden="true"></i> Asociación Casa Chapi</li>
+                                <li><i class="fa fa-angle-right" aria-hidden="true"></i> Futura Schools</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+        </div>
+        <div class="scrollup"><i class="fa fa-angle-double-up"></i></div>
+    </div>
+    <!--------------------------------------FOOTER------------------------------------------------------------>
+    <div class="footer2">
     <div class="container">
         <div class="row" style="margin: 15px auto;">
             <div class="col-md-6 col-sm-12 col-xs-12" >
@@ -545,13 +532,13 @@
         </div>
     </div>
 </div>
-<script type="text/javascript" src="js/jquery-1.12.3.js"></script>
-<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
-<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-<script src="js/collapse.js"></script>
-<script src='js/jquery.elevatezoom-3.0.8.min.js'></script>
-<script src="js/zoom.js"></script>
-</body>
+   </body>
+    <script type="text/javascript" src="js/jquery-1.12.3.js"></script>
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <script src='js/jquery.elevatezoom-3.0.8.min.js'></script>
+    <script src="js/zoom.js"></script>
+    <script src="js/index.js"></script>
 </html>

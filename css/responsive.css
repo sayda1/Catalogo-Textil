@@ -35,15 +35,14 @@
     .mega-dropdown-menu .dropdown-header{
         color: #fff;
     }
-    
-    /*---------------------REDES--------------*/
+    /*---------------------------------REDES-------------------------------------------*/
     .lista{
         display: none;
     }
     .redes section a{
         display: none;
     }
-    /*---------------------PORTADA-----------------*/
+    /*---------------------------------------------PORTADA---------------------------*/
     .portada .box-in{
         padding-top: 40px;
     }
@@ -112,5 +111,11 @@
     }
     .footer2 .container{
         padding: 0px;
+    }
+}
+/*--------------------------------PRENDAS-------------------------------------------*/
+@media (max-width:764px) and (min-width:240px){
+    .zoomWindow{
+        display: none !important;
     }
 }
