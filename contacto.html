@@ -154,21 +154,21 @@
                 <div id="contact-area">
                     <form  method="POST" action="datos.php">
                         <div class="col-md-6">
-                            <input type="text" name="nombre" id="Nombres" placeholder="Nombres y Apellidos"/>
+                            <input type="text"  onkeyup="valiNombre()" name="nombre" id="Nombres" placeholder="Nombres y Apellidos"/>
                             <input type="text" name="correo" id="Correo" placeholder="Correo Electrónico"/>
-                            <input type="text" name="telefono" id="Telefono" placeholder="Teléfono"/>
+                            <input type="text" onkeyup="valiTelefono()" name="telefono" id="Telefono" placeholder="Teléfono"/>
                             <input type="text" name="asunto" id="Asunto" placeholder="Asunto"/>
                         </div>
                         <div class="col-md-6">
                             <label>Elija su prenda:</label>
                             <select id="color" name="prenda">
-                                <option selected="selected" value="">Elija opción</option>
+                                <option selected="selected" value="Prenda 0">Elija opción</option>
                                 <option value="Prenda 1">Prenda 1</option>
                                 <option value="Prenda 2">Prenda 2</option>
                                 <option value="Prenda 3">Prenda 3</option>
                             </select>
                             <textarea name="mensaje" rows="5" cols="20" id="Message" placeholder="Message"></textarea>
-                            <input type="submit" name="submit" value="Submit" class="submit-button"/>
+                            <input type="submit" name="submit" value="Submit" class="submit-button" id="Enviar"/>
                         </div>
                     </form>
                 </div>
@@ -402,7 +402,7 @@
     <!-----------------------JAVASCRIPT-------------------------->
     <script type="text/javascript" src="js/jquery-1.12.3.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="js/main.js"></script>
     <script src="js/index.js"></script>
+    <script src="js/formulario.js"></script>
     <script src="Formulario/formulario.php"></script>
 </html>

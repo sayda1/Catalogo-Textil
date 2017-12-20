@@ -1,6 +1,5 @@
-{outline: 1px solid blue;}
-/**@import url('https://fonts.googleapis.com/css?family=Titillium+Web');---*/
-
+*{outline: 1px solid blue;}
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
 #navbar{height: 80px; border-radius: 0px;}
 .navbar-default{background-color: rgb(197,36,26); border: 0px;       margin-bottom: 0px; }
 #navbar .navbar-header{height: 80px;}
