@@ -60,7 +60,7 @@
         height: 135;
     }
 }
-/*------------------RESPONSIVE-----------------*/
+/*----------------------------------------------RESPONSIVE--------------------------------------------------------*/
 @media (max-width:764px) and (min-width:240px){
     .quienesSomos{
         height: 209vh;
@@ -118,12 +118,5 @@
     .zoomWindow{display: none !important;}
 }
 
-/*-------------------------------RESPONSIVE DE PRENDAS--------------------------------------*/
-
-
-
-
-
-
-
-
+/*-----------------------------TIPOS DE PRENDAS-----------------------------------*/
+/*navidad navidad blanca navidad estrellitas...estrellitas que felicidad*/
