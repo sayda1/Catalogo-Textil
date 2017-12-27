@@ -124,7 +124,7 @@
         width: 100%;
     }
 }
-@media(max-width:1024px) and (min-width:768px){
+@media(max-width:1336px) and (min-width:768px){
     .modelo-prenda .lista-tallas{
         width: 48% !important;
     }   
