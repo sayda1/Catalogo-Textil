@@ -56,15 +56,11 @@
     .hero h1 { font-size: 3em; }    
 }
 @media screen and (max-width: 320){
-    .quienesSomos {
-        height: 135;
-    }
+    .quienesSomos {height: 135;}
 }
 /*----------------------------------------------RESPONSIVE--------------------------------------------------------*/
 @media (max-width:764px) and (min-width:240px){
-    .quienesSomos{
-        height: 209vh;
-    }
+    .quienesSomos{height: 209vh;}
     .section-info .text{
         height: auto;
         position: relative;
@@ -73,32 +69,18 @@
 }
 /*-------------------------CELULAR--PAD---------------------------------*/
 @media (max-width:1024px) and (min-width:768px){
-    .quienesSomos{
-        height: 126vh;
-    }
-    .quienesSomos .imagen , .text{
-        width: 100%;
-    }
-    .fade-carousel .slides .slide-1, .fade-carousel .slides .slide-2, .fade-carousel .slides .slide-3{
-        height: 66vh;
-    }
-    .carousel-indicators{
-        bottom: 127px;
-    }
-    .hero{
-        top: 37%;
-    }
-    .section-info .text{
-        top: -17px;
-    }
-    .footer2 .container{
-        padding: 0px;
-    }
+    .quienesSomos{height: 126vh;}
+    .quienesSomos .imagen , .text{width: 100%;}
+    .fade-carousel .slides .slide-1, .fade-carousel .slides .slide-2, .fade-carousel .slides .slide-3{ height: 66vh;}
+    .carousel-indicators{bottom: 127px;}
+    .hero{ top: 37%;}
+    .section-info .text{top: -17px;}
+    .footer2 .container{padding: 0px;}
 }
 /*-------------------------CELULAR--PAD--PRO-------------------------------*/
 @media (max-width:1366px) and (min-width:1024px){
     .quienesSomos{
-        height: 67vh;
+        height: 79vh;
     }
     .fade-carousel{
         height: 50vh;
@@ -107,7 +89,7 @@
         height: 67vh;
     }
     .fade-carousel .slides .slide-1, .fade-carousel .slides .slide-2, .fade-carousel .slides .slide-3{
-        height: 67vh;
+        height: 45vh;
     }
     .footer2 .container{
         padding: 0px;
@@ -117,7 +99,6 @@
 @media (max-width:764px) and (min-width:240px){
     .zoomWindow{display: none !important;}
 }
-
 /*-----------------------------TIPOS DE PRENDAS-----------------------------------*/
 @media (max-width:764px) and (min-width:319px){
     .modelo-prenda .lista-tallas{
