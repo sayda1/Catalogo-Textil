@@ -1,5 +1,5 @@
-*{outline: 1px solid rgba(0, 0, 255, 0);}
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+*{outline: 1px solid rgba(0, 0, 255, 0);}
 #navbar{height: 80px; border-radius: 0px;}
 .navbar-default{background-color: rgb(197,36,26); border: 0px;       margin-bottom: 0px; }
 #navbar .navbar-header{height: 80px;}

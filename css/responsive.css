@@ -120,17 +120,13 @@
 
 /*-----------------------------TIPOS DE PRENDAS-----------------------------------*/
 @media (max-width:764px) and (min-width:319px){
-    .board{
-       
-    }
     .modelo-prenda .lista-tallas{
         width: 100%;
     }
 }
 @media(max-width:1024px) and (min-width:768px){
     .modelo-prenda .lista-tallas{
-        width: 48%;
+        width: 48% !important;
     }   
 }
-
 /**/
