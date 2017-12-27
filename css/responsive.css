@@ -119,4 +119,18 @@
 }
 
 /*-----------------------------TIPOS DE PRENDAS-----------------------------------*/
-/*navidad navidad blanca navidad estrellitas...estrellitas que felicidad*/
+@media (max-width:764px) and (min-width:319px){
+    .board{
+       
+    }
+    .modelo-prenda .lista-tallas{
+        width: 100%;
+    }
+}
+@media(max-width:1024px) and (min-width:768px){
+    .modelo-prenda .lista-tallas{
+        width: 48%;
+    }   
+}
+
+/**/
