@@ -1,25 +1,39 @@
 $(document).ready(init);
 //FUNCION GENERAL
 function init(){
-    console.log(primerBoton);
-    $("#primero").click(primerBoton);
-    $("#segundo").click(segundoBoton);
-    $("#tercero").click(tercerBoton);
+    //FUNCION BLUSAS
+    $("#primero").click(primeraBlusa);
+    $("#segundo").click(segundaBlusa);
+    $("#tercero").click(terceraBlusa);
+    //FUNCION BUZOS
+    $("#primerBuzo").click(PrimerBuzo);
+    $("#segundoBuzo").click(segundoBuzo);
+    $("#tercerBuzo").click(tercerBuzo);
 }
 
-//FUNCIONES DE BOTONES
+//FUNCIONES DE BLUSAS
 //PRIMERO
-function primerBoton(){
+function primeraBlusa(){
     location.href="blusa-manga-corta.html";
 }
 //SEGUNDO
-function segundoBoton(){
+function segundaBlusa(){
     location.href="blusa-manga-larga.html";
 }
-function tercerBoton(){
-    location.href="blusa-manga-tres-cuartos.html";
+//TERCERO
+function terceraBlusa(){
+    location.href="blusa-mangsa-tres-cuartos.html";
+}
+//FUNCION DE BUZOS
+//PRIMERO
+function PrimerBuzo(){
+    location.href="buzo-polynam.html";
+}
+//SEGUNDO
+function segundoBuzo(){
+    location.href="buzo-polyalgodon.html";
 }
 //TERCERO
-//CUARTO
-//QUINTO
-//SEXTO
+function tercerBuzo(){
+    location.href=("buzo-tafeta.html")
+}
