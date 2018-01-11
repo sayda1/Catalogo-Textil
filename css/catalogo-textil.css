@@ -17,7 +17,7 @@ body{font-family: 'Titillium Web', sans-serif;}
 .portada{
   background-image: url('../img/taller.jpg');
   background-size: cover;
-  background-position: ce nter;
+  background-position: center;
   width: 100%;
   height: 400px;
 }
@@ -126,7 +126,7 @@ figure.snip1190:hover .square div:after, figure.snip1190.hover .square div:after
 }
 
 .otros-lineas figure.snip1477 *,
-.otros-lineas figure.snip1477 *:before,
+    .otros-lineas figure.snip1477 *:befo14re,
 .otros-lineas figure.snip1477 *:after {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
