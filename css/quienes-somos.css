@@ -110,7 +110,8 @@ body{
 /*********Slides backgrounds*********/
 .fade-carousel .slides .slide-1, 
 .fade-carousel .slides .slide-2,
-.fade-carousel .slides .slide-3 {
+.fade-carousel .slides .slide-3,
+.fade-carousel .slides .slide-4{
   height: 100vh;
   background-size: cover;
   background-position: center center;
@@ -120,8 +121,11 @@ body{
   background-image: url("../img/slider1.JPG"); 
 }
 .fade-carousel .slides .slide-2 {
-  background-image: url("../img/slider2.JPG");
+  background-image: url("../img/comprmiso.jpg");
 }
 .fade-carousel .slides .slide-3 {
   background-image: url("../img/slider4.JPG");
+}
+.fade-carousel .slides .slide-4{
+    background-image: url("../img/slider4.JPG");
 }

@@ -15,7 +15,7 @@ body{font-family: 'Titillium Web', sans-serif;}
 .button button:hover{background-color: #000; color: #fff;}
 /*----------------PORTADA-----------*/
 .portada{
-  background-image: url('../img/taller.jpg');
+  background-image: url('../img/slider-cat3.jpg');
   background-size: cover;
   background-position: center;
   width: 100%;
